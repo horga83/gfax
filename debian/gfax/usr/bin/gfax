@@ -1,0 +1,37 @@
+#!/bin/bash
+#  GFAX - Gnome fax application
+#  Copyright (C) 2003 - 2008 George A. Farris
+#
+# This program is free software; you can redistribute it and/or modify
+# it under the terms of the GNU General Public License as published by
+# the Free Software Foundation; either version 3 of the License, or
+# (at your option) any later version.
+#
+# This program is distributed in the hope that it will be useful,
+# but WITHOUT ANY WARRANTY; without even the implied warranty of
+# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+# GNU Library General Public License for more details.
+#
+# You should have received a copy of the GNU General Public License
+# along with this program; if not, write to the Free Software
+# Foundation, Inc., 59 Temple Place - Suite 330, Boston, MA 02111-1307, USA.
+#
+RNAME=G$$
+# don't change this spool directory, gfax uses it.
+SPOOL_DIR=~/.local/share/gfax/spool
+STD=no
+
+if [ -s /dev/stdin ]; then
+	cat > $SPOOL_DIR/D.$RNAME
+	STD=yes
+fi
+
+if [ $STD = "yes" ]; then
+	exec mono /usr/lib/gfax/gfax.exe -f $SPOOL_DIR/D.$RNAME &
+	#rm -f $SPOOL_DIR/D.$RNAME
+	exit 0
+fi
+
+# If it's not a fax piped in on stdin, pass everything straight through to 
+# mono-gfax.
+mono /usr/lib/gfax/gfax.exe $@

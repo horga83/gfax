@@ -1,0 +1,2 @@
+version=3
+http://gfax.cowlug.org/ gfax-([\d\.]+)\.tar\.gz

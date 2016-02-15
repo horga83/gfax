@@ -1,0 +1,39 @@
+#!/bin/bash
+#  GFAX - Gnome fax application
+#  Copyright (C) 2003 - 2008 George A. Farris
+#
+# This program is free software; you can redistribute it and/or modify
+# it under the terms of the GNU General Public License as published by
+# the Free Software Foundation; either version 3 of the License, or
+# (at your option) any later version.
+#
+# This program is distributed in the hope that it will be useful,
+# but WITHOUT ANY WARRANTY; without even the implied warranty of
+# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+# GNU Library General Public License for more details.
+#
+# You should have received a copy of the GNU General Public License
+# along with this program; if not, write to the Free Software
+# Foundation, Inc., 59 Temple Place - Suite 330, Boston, MA 02111-1307, USA.
+
+if [ $# == 0 ] ; then
+	echo  "file cups-gfax:/ \"Unknown\" \"Gfax Facsimile Printer\""
+	exit 0
+fi
+
+RNAME=G$$
+# don't change this spool directory, gfax uses it.
+mkdir -m 777 -p /var/spool/gfax/$2
+#chmod 777 /var/spool/gfax/$2
+SPOOL_DIR=/var/spool/gfax/$2
+
+if [ $# -eq 6 ]; then
+	cp $6 $SPOOL_DIR/D.$RNAME
+	cp $6 /tmp/ggf
+else
+	cat > $SPOOL_DIR/D.$RNAME
+fi
+
+chmod 666 $SPOOL_DIR/D.$RNAME
+
+exit 0

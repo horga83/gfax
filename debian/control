@@ -1,0 +1,19 @@
+Source: gfax
+Section: gnome
+Priority: optional
+Maintainer: George Farris <george@gmsys.com>
+Build-Depends-Indep: cdbs, debhelper (>= 5.0.0), dpatch, cli-common (>= 0.2.0), mono-gmcs (>= 1.0) | c-sharp-compiler, libgtk2.0-cil, libgnome2.24-cil, libgconf2.24-cil, libglade2.0-cil, libglib2.0-cil, libndesk-dbus1.0-cil, libevolution5.0-cil, gettext, intltool
+Standards-Version: 3.6.2
+
+Package: gfax
+Version: 0.7.7-0ubuntu3
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ${cli:Depends},efax | hylafax-client
+Description:  GNOME frontend to Hylafax and Efax facsimile programs.
+  The GFAX project aims to provide a free front end to the various
+  facsimile programs available for Linux and other operating systems
+  that use GNOME.
+  .
+  GFAX provides the familiar "pop up" window and phone book support
+  when one "prints" to a "fax" printer as well as viewing or printing
+  received facsimiles on a Hylafax server.

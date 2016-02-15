@@ -1,0 +1,12 @@
+
+using System;
+
+namespace gfax
+{
+	public class Defines
+	{	
+		public static string VERSION = "@version@";
+        public static string DATADIR = "@datadir@";
+        public static string GNOME_LOCALE_DIR = DATADIR + "/locale";
+	}
+}

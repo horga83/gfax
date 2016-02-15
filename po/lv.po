@@ -1,0 +1,1569 @@
+# Latvian translations for gfax package.
+# Copyright (C) 2004 THE gfax'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the gfax package.
+# George Farris <george@gmsys.com>, 2004.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: gfax 0.7.6\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2006-12-04 19:29-0800\n"
+"PO-Revision-Date: 2005-02-24 19:21+0100\n"
+"Last-Translator: Maris Dembovskis <marisdembovskis@gmail.com>\n"
+"Language-Team: Latvian <marisdembovskis@gmail.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../gfax.desktop.in.h:1
+#, fuzzy
+msgid "Gfax Facsimile Program"
+msgstr "Gfax Faksēšanas programma"
+
+#: ../gfax.desktop.in.h:2
+#, fuzzy
+msgid "Send and Receive Facsimiles"
+msgstr "Sūtīt saņemt faksus"
+
+#: ../gfax.schemas.in.h:1
+msgid "0:never, 1:until carrier, 2:always, 3:on receive only"
+msgstr ""
+
+#: ../gfax.schemas.in.h:2
+msgid "0:very low, 1:low, 2:medium, 3:high"
+msgstr ""
+
+#: ../gfax.schemas.in.h:3
+#, fuzzy
+msgid "Modem Device"
+msgstr "Modema tips"
+
+#: ../gfax.schemas.in.h:4
+#, fuzzy
+msgid "Modem initialization string"
+msgstr "Modēmu inicializēšana"
+
+#: ../gfax.schemas.in.h:5
+msgid "Modem reset string"
+msgstr ""
+
+#: ../gfax.schemas.in.h:6
+msgid "Not currently used."
+msgstr ""
+
+#: ../gfax.schemas.in.h:7
+msgid "The initialization code that is sent to the modem."
+msgstr ""
+
+#: ../gfax.schemas.in.h:8
+msgid ""
+"The name of the lock file according to your system's conventions. If you're "
+"running Linux you shouldn't have to touch this."
+msgstr ""
+
+#: ../gfax.schemas.in.h:9
+msgid ""
+"The reset code that resets the modem to a power up state. The -Kz code works "
+"with most modems."
+msgstr ""
+
+#: ../gfax.schemas.in.h:10
+#, fuzzy
+msgid ""
+"The serial port the modem is connected too. Typical values are ttyS0, cua0 "
+"or modem."
+msgstr ""
+"Seriālie porti, pie kuriem modems ir pieslēgts, parasti tie ir ttyS0, cua0"
+
+#: ../glade/gfax.glade.h:1
+msgid ""
+"\n"
+"Please enter your Hylafax server information here.  If you are running "
+"Hylafax on the same computer That you are using Gfax on then \"Host Name\" "
+"should be set to \"localhost\".\n"
+msgstr ""
+"\n"
+"Ievadiet lūdzu Hylafax servera informāciju.\n"
+"Ja jūs lietojat Hylafax uz tā paša datora, kur tiks palaists GFAX, tad\n"
+"jums ir \"nosaukums\" \"localhost\" jādod.  \n"
+
+#: ../glade/gfax.glade.h:4
+msgid "               Program: "
+msgstr ""
+
+#: ../glade/gfax.glade.h:5
+msgid "4559"
+msgstr "4559"
+
+#: ../glade/gfax.glade.h:6
+msgid "<b><big>E-Mail Notification</big></b>"
+msgstr "<b><big>E-pasta brīdinājums</big></b>"
+
+#: ../glade/gfax.glade.h:7
+msgid "<b><big>Efax Setup</big></b>"
+msgstr "<b><big>Efax uzstādīšana</big></b>"
+
+#: ../glade/gfax.glade.h:8
+#, fuzzy
+msgid "<b><big>Facsimile Viewer Program</big></b>"
+msgstr "<b><big>Faxu apskates programmas</big></b>"
+
+#: ../glade/gfax.glade.h:9
+msgid "<b><big>Fax Properties</big></b>"
+msgstr "<b><big>Fax properties</big></b>"
+
+#: ../glade/gfax.glade.h:10
+msgid "<b><big>Fax Transport Agent</big></b>"
+msgstr "<b><big>Fax Transport Agent</big></b>"
+
+#: ../glade/gfax.glade.h:11
+msgid "<b><big>Hylafax Setup</big></b>"
+msgstr "<b><big>Hylafax uzstādīšana</big></b>"
+
+#: ../glade/gfax.glade.h:12
+msgid "<b><big>Phone Information</big></b>"
+msgstr "<b><big>Phone Information</big></b>"
+
+#: ../glade/gfax.glade.h:13
+msgid "<b><big>Transmit Properties</big></b>"
+msgstr "<b><big>Transmit Properties</big></b>"
+
+#: ../glade/gfax.glade.h:14
+#, fuzzy
+msgid "<b>Alter facsimile job parameters</b>"
+msgstr "Pēc faksa darba uzstādijumi"
+
+#: ../glade/gfax.glade.h:15
+msgid "<b>Server</b>"
+msgstr "<b>Serveris</b>"
+
+#: ../glade/gfax.glade.h:16
+msgid ""
+"ATT (Dataport, Paradyne)\n"
+"Motorola (Power Modem, 3400 Pro,...\n"
+"QuickComm (Spirit II)\n"
+"USR (Courier, Sportster)\n"
+"Multi-Tech (for bit reversal)\n"
+"User Defined\n"
+msgstr ""
+
+#: ../glade/gfax.glade.h:23
+msgid "Auto Refresh Queue"
+msgstr "Auto Refresh Queue"
+
+#: ../glade/gfax.glade.h:24
+msgid ""
+"Complete...\n"
+"\n"
+"Your new phone book is ready.\n"
+"If this is a Gfax type phone book you may\n"
+"now add items.  \n"
+"\n"
+"Evolution phone books are read only\n"
+"but may be change through Evolution."
+msgstr ""
+
+#
+#: ../glade/gfax.glade.h:32
+msgid "Completed Jobs"
+msgstr "Pabeigtie darbi"
+
+#: ../glade/gfax.glade.h:33
+msgid "Database"
+msgstr "Datubāze"
+
+#: ../glade/gfax.glade.h:34 ../glade/send-druid.glade.h:11
+msgid "Delete"
+msgstr "Dzēst"
+
+#: ../glade/gfax.glade.h:35
+msgid "Dial Prefix:"
+msgstr "Ciparu prefix kad tiek sastādīts numurs:"
+
+#: ../glade/gfax.glade.h:36
+msgid "E-Mail Address:"
+msgstr "E-pasta adrese:"
+
+#: ../glade/gfax.glade.h:37
+msgid "E-Mail Notification"
+msgstr "E-pasta brīdinājums"
+
+#: ../glade/gfax.glade.h:38
+msgid "Efax"
+msgstr "Efax"
+
+#: ../glade/gfax.glade.h:39
+msgid "Evolution"
+msgstr "Evolution"
+
+#: ../glade/gfax.glade.h:40
+msgid "Evolution Address books"
+msgstr ""
+
+#: ../glade/gfax.glade.h:41
+msgid "Exit"
+msgstr "Exit"
+
+#: ../glade/gfax.glade.h:42
+msgid "Facsimile Number:"
+msgstr "Faxa numurs:"
+
+#: ../glade/gfax.glade.h:43
+msgid "Facsimiles to Send"
+msgstr "Faksi, kas jānosūta"
+
+#: ../glade/gfax.glade.h:44
+#, fuzzy
+msgid "Fax Number:"
+msgstr "Faxa numurs:"
+
+#: ../glade/gfax.glade.h:45
+msgid "Fax Status:"
+msgstr "Faxa status:"
+
+#: ../glade/gfax.glade.h:46
+msgid "Fax log enabled"
+msgstr "Faxa izpildes rezultāts apskatāms"
+
+#: ../glade/gfax.glade.h:47
+#, fuzzy
+msgid ""
+"First we must choose a transport agent.  \n"
+"\n"
+"A transport agent is a software package that is responsible for\n"
+"actually sending the facsimile with your modem.  If you don't have \n"
+"one of these installed you should hit cancel here and install\n"
+"a transport agent first.\n"
+"\n"
+"Transport agents can be found at the following URL's but you should \n"
+"check your distribution CD first..\n"
+"\n"
+"Hylafax - http://www.hylafax.org\n"
+"Efax - http://www.cce.com/efax"
+msgstr ""
+"Vispirms ir jāizvēlas transporta aģents.\n"
+"\n"
+"Transporta aģents ir programmatūra, kas ir atbildīga "
+"par to, kad kad notiek faxu sūtīšana caur jūsu modemu "
+"Ja jums pagaidām nav nevienas programmas, kas atbild par faksu sūtīšanu, lūdzu instalējiet to tagad.\n"
+"\n"
+"Transporta (faxu sūtīšanas) aģenti var atrasties zem šādām saitēm\n"
+"bet vispirms lūdzu pārbaudiet savas distribūcijas CD.\n"
+"\n"
+"Hylafax - http://www.hylafax.org\n"
+"Mgetty - http://alpha.greenie.net/mgetty\n"
+"Efax - http://www.cce.com/efax"
+
+#: ../glade/gfax.glade.h:59
+msgid "Gfax"
+msgstr "Gfax"
+
+#: ../glade/gfax.glade.h:60
+msgid "Gfax  -  E-Mail Address"
+msgstr "Gfax  -  E-pasta adrese"
+
+#: ../glade/gfax.glade.h:61
+msgid "Gfax  -  Facsimile Transport Agent"
+msgstr "Gfax  -  Programma faxu sūtīšanai"
+
+#: ../glade/gfax.glade.h:62
+msgid "Gfax  -  Gnome facsimile program"
+msgstr "Gfax  -  Gnome-Faxu programma"
+
+#: ../glade/gfax.glade.h:63
+msgid "Gfax  -  Modem Selection"
+msgstr "Gfax  -  Modema izvēle"
+
+#: ../glade/gfax.glade.h:64
+msgid "Gfax  -  Phone Number Information"
+msgstr "Gfax  -  Telefona numura informācija"
+
+#: ../glade/gfax.glade.h:65
+msgid "Gfax  -  Setup Complete"
+msgstr "Gfax  -  Uzstādīšana pabeigta"
+
+#: ../glade/gfax.glade.h:66
+msgid "Gfax - Add new phone book."
+msgstr "Gfax - Jauna telefona grāmata"
+
+#: ../glade/gfax.glade.h:67
+msgid "Gfax - Modify Job"
+msgstr ""
+
+#: ../glade/gfax.glade.h:68
+msgid "Gfax - New user setup"
+msgstr "Gfax - Jauna lietotāja uzstādīšana"
+
+#: ../glade/gfax.glade.h:69
+msgid "Gfax - Preferences"
+msgstr "Gfax - Uzstādījumi"
+
+#: ../glade/gfax.glade.h:70
+msgid "Gfax - Transmission Progress"
+msgstr "Gfax - Apstrādes progress"
+
+#: ../glade/gfax.glade.h:71
+#, fuzzy
+msgid ""
+"Gfax can inform the Efax transport agent which\n"
+"serial port your modem is connected to."
+msgstr ""
+"Gfax var informēt Efax sistēmu par\n"
+"pie kura seriālā porta modems ir pieslēgts."
+
+#: ../glade/gfax.glade.h:73
+msgid ""
+"Gfax setup is now complete!\n"
+"\n"
+"Gfax is configurable; there are other configuration \n"
+"options available under the preferences menu.\n"
+"\n"
+"You can run this first time setup at any time from\n"
+"the preferences section.\n"
+"\n"
+"Default preferences have been choosen for the\n"
+"transport agent you chose, you may want to\n"
+"customise them."
+msgstr ""
+"Gfax uzstādīšana pabeigta.\n"
+"\n"
+"Gfax ir konfigurējams ar daudz dažadām kofigurācijas iespējām \n"
+"zem UZSTĀDĪJUMI.\n"
+"\n"
+"Jūs varat palaist pirmo reizi programmu ar jebkādiem laika uzstādījumiem.\n"
+"\n"
+"\n"
+"Noklusētie uzstādījumi ir izvēlēti\n"
+"jūs varat arī rediģēt šos uzstādījumus."
+
+#: ../glade/gfax.glade.h:84
+msgid "Hi Resolution Mode"
+msgstr "Izšķirtspēja"
+
+#: ../glade/gfax.glade.h:85
+msgid "Host Name:"
+msgstr "Hosta vārds:"
+
+#: ../glade/gfax.glade.h:86
+msgid "Hostname:"
+msgstr "Hosts:"
+
+#: ../glade/gfax.glade.h:87
+msgid "Hylafax"
+msgstr "Hylafax"
+
+#: ../glade/gfax.glade.h:88
+msgid "Hylafax - Choose this for network faxing."
+msgstr "Hylafax - Izvēlieties šo tīkla faksēšanai"
+
+#: ../glade/gfax.glade.h:89
+msgid ""
+"Hylafax and Mgetty+Sendfax can both be requested to send \n"
+"results of facsimile transmission to an email address.\n"
+"\n"
+"If you require this feature please enter your email address\n"
+"here.  It's a good idea to include this even if you don't \n"
+"use it immediately, you can enable and disable it in the\n"
+"preferences section of Gfax.\n"
+" "
+msgstr ""
+"Hylafax un Mgetty+Sendfax var abi sūtīt\n"
+"rezultāti faksēšanai uz e-pasta adresi\n"
+"\n"
+"\n"
+"Ja jūs vēlaties šādu iespēju, lūdzu ierakstiet savu e-pasta adresi\n"
+"šeit. Ir laba ideja to ierakstīt arī tad, ja šī opcija netiks izmantota\n"
+"vēlāk šo iespēju varēs aizliegt vai atļaut\n"
+"zem Uzstādījumi izvēlnes.\n"
+" "
+
+#: ../glade/gfax.glade.h:97
+msgid "IP Port:"
+msgstr "IP Ports:"
+
+#: ../glade/gfax.glade.h:98
+msgid "LDAP"
+msgstr "LDAP"
+
+#: ../glade/gfax.glade.h:99
+msgid "Log Enabled"
+msgstr "Log aktivizēts"
+
+#: ../glade/gfax.glade.h:100
+msgid ""
+"Make no more than <maxdials> calls in attempting to send the facsimile.  "
+"Once <maxdials> has been reached, the job will be killed."
+msgstr ""
+
+#: ../glade/gfax.glade.h:101
+msgid "Maximum Dials:"
+msgstr ""
+
+#: ../glade/gfax.glade.h:102
+msgid "Mgetty"
+msgstr "Mgetty"
+
+#: ../glade/gfax.glade.h:103
+msgid "Modem Connection"
+msgstr "Modema konekcija"
+
+#: ../glade/gfax.glade.h:104
+#, fuzzy
+msgid "Modem Port:"
+msgstr "Modema ports"
+
+#: ../glade/gfax.glade.h:105
+#, fuzzy
+msgid "Modem Type:"
+msgstr "Modema tips"
+
+#: ../glade/gfax.glade.h:106
+msgid "New Fax"
+msgstr "Jauns Fax"
+
+#: ../glade/gfax.glade.h:107 ../glade/send-druid.glade.h:23
+msgid "New phone book"
+msgstr "Jauna telefona grāmata"
+
+#: ../glade/gfax.glade.h:108
+msgid "Open phone book"
+msgstr "Atvērt telefona grāmatu"
+
+#: ../glade/gfax.glade.h:109
+#, fuzzy
+msgid "Page Size:"
+msgstr "Papīra lielums"
+
+#: ../glade/gfax.glade.h:110
+msgid "Password Dialog"
+msgstr "Paroles dialogs"
+
+#: ../glade/gfax.glade.h:111 ../glade/send-druid.glade.h:26
+#: ../src/newphonebook.cs:81
+msgid "Phone Book"
+msgstr "Telefona grāmata"
+
+#: ../glade/gfax.glade.h:112
+msgid "Please enter a name for your new phone book."
+msgstr "Lūdzu ieraksti vārdu jaunajai telefonu grāmatai."
+
+#: ../glade/gfax.glade.h:113
+msgid ""
+"Please enter the password \n"
+"for your fax server."
+msgstr ""
+"Lūdzu ieraksti savu paroli\n"
+"savam faxa serverim."
+
+#: ../glade/gfax.glade.h:115
+msgid "Please enter the type of phone book you are creating."
+
+msgstr "Lūdzu ievadi telefonu grāmatas tipu, ko tu veido."
+
+#: ../glade/gfax.glade.h:121
+msgid ""
+"Please enter your facsimile number.\n"
+"\n"
+"This number is placed in the top one line header that is placed \n"
+"on all outgoing facsimiles.\n"
+"\n"
+"You may also choose a default dial prefix.  Many companies in\n"
+"North America use the number \"9\" to reach an outside line.\n"
+msgstr ""
+"Lūdzu ievadiet faxa numuru.\n"
+"\n"
+"Šis numurs būs redzams visām izejošajām lapām pašā lapas augšā.\n"
+"\n"
+"Jūs varat izvēlēties arī noklusēto zvanīšanas prefixu \n"
+"Daudzas kompānijas USA lieto ciparu \"9\", lai pieslēgtos ārējai līnijai \n"
+"Eiropā toties lieto \"0\" lai pieslēgtus citām valstīm \n"
+"\n"
+
+#: ../glade/gfax.glade.h:129
+msgid ""
+"Please select the Evolution address books that you would \n"
+"like to use.\n"
+"\n"
+"These are only local address books and will only include\n"
+"contacts with facsimile numbers."
+msgstr ""
+
+#: ../glade/gfax.glade.h:134
+msgid "Port Number:"
+msgstr "Porta numurs"
+
+#: ../glade/gfax.glade.h:135
+msgid "Received Facsimiles"
+msgstr "Empfangene Faxe"
+
+#: ../glade/gfax.glade.h:136
+msgid "Remember this password"
+msgstr "Atcerēties paroli"
+
+#: ../glade/gfax.glade.h:137
+msgid "Send Email Notification"
+msgstr "Sūtīt e-pasta paziņojumu"
+
+#: ../glade/gfax.glade.h:138
+msgid "Send Immediately"
+msgstr "Sūtīt steidzami"
+
+#: ../glade/gfax.glade.h:139
+msgid "Speaker Volume:"
+msgstr ""
+
+#: ../glade/gfax.glade.h:140
+msgid "System"
+msgstr "Sistēma"
+
+#: ../glade/gfax.glade.h:141
+msgid ""
+"The TCP/IP port number of the fax server.  Default hylafax port is 4559."
+msgstr ""
+"TCP/IP porta numurs faxa serverim. Noklusētais Hylafax ports ir 4559."
+
+#: ../glade/gfax.glade.h:142
+msgid ""
+"The host name of the network fax server.  Enter \"localhost\" if you are not "
+"using a network fax server."
+msgstr ""
+"Hosta vārds tīkla faxa serverim. Atstājiet \"localhost\" ja jūs nelietojat,\n"
+"tīkla faxa serveri."
+
+#: ../glade/gfax.glade.h:143
+msgid "The serial port the modem is on - ttyS0 is COM1, ttyS1 is COM2 etc."
+msgstr ""
+"Seriālā ports, pie kura modems ir ieslēgts - ttyS0,COM1, ttyS1 ir COM2 u.t.t."
+
+#: ../glade/gfax.glade.h:144
+msgid ""
+"There was an error transmitting\n"
+"your facsimile to the server!"
+msgstr ""
+"Neizdevās nosūtīt \n"
+"faxu uz faxa serveri!"
+
+#: ../glade/gfax.glade.h:146
+msgid ""
+"This will lead you through the process \n"
+"of creating a new phone book."
+msgstr ""
+"Tagad jūs tiksiet vadīti cauri procesam, \n"
+"veidojot jaunu telefonu grāmatu."
+
+#: ../glade/gfax.glade.h:148
+#, fuzzy
+msgid "Time to send:"
+msgstr "Laiks, ka jānosūta"
+
+#: ../glade/gfax.glade.h:149
+msgid ""
+"Transmitting facsimile to \n"
+"Hylafax server."
+msgstr ""
+"Sūtīt faxu uz\n"
+"Hylafax-Server."
+
+#: ../glade/gfax.glade.h:151
+msgid "Transport Agent"
+msgstr "Transporta aģents"
+
+#: ../glade/gfax.glade.h:152
+msgid "Use Cover Page"
+msgstr "Lietot priekšlapu"
+
+#: ../glade/gfax.glade.h:153
+msgid "Use Fine Resolution"
+msgstr "Lietot normālu izšķirtspēju"
+
+#: ../glade/gfax.glade.h:154
+msgid "User"
+msgstr "Lietotājs"
+
+#: ../glade/gfax.glade.h:155
+msgid "Username:"
+msgstr "Lietotājvārds:"
+
+#: ../glade/gfax.glade.h:156
+msgid ""
+"Very Low\n"
+"Low\n"
+"Medium\n"
+"High"
+msgstr ""
+
+#: ../glade/gfax.glade.h:160
+msgid "View / Print"
+msgstr ""
+
+#: ../glade/gfax.glade.h:161
+msgid ""
+"Welcome to Gfax!\n"
+"\n"
+"\n"
+"Gfax is a GNOME facsimile program that provides \n"
+"the familiar \"popup\" window when printing to a fax \n"
+"printer.\n"
+"\n"
+"The following pages will help you to setup Gfax."
+msgstr ""
+"msgid \"c2.0\"\n"
+"msgstr \"\""
+
+#: ../glade/gfax.glade.h:169
+msgid "Which serial port is your modem connected to?"
+msgstr "Pie kura seriālā porta jūsu modems ir pieslēgts?"
+
+#: ../glade/gfax.glade.h:170
+msgid ""
+"Your facsimile was sucessfully\n"
+" transmitted!"
+msgstr ""
+"Fakss nosūtīts  \n"
+"veiksmīgi."
+
+#: ../glade/gfax.glade.h:172
+msgid "_Cancel Job"
+msgstr "_pārtraukt darbu"
+
+#: ../glade/gfax.glade.h:173
+msgid "_Fax"
+msgstr "_Fax"
+
+#: ../glade/gfax.glade.h:174
+msgid "_Help"
+msgstr "_Palīdzība"
+
+#: ../glade/gfax.glade.h:175
+msgid "_Modify Job"
+msgstr ""
+
+#: ../glade/gfax.glade.h:176
+msgid "_Settings"
+msgstr "_Uzstādījumi"
+
+#: ../glade/gfax.glade.h:177
+msgid "cua1"
+msgstr "cua1"
+
+#: ../glade/gfax.glade.h:178
+msgid "cua2"
+msgstr "cua2"
+
+#: ../glade/gfax.glade.h:179
+msgid ""
+"letter\n"
+"legal\n"
+"a4"
+msgstr ""
+
+#: ../glade/gfax.glade.h:182
+msgid "localhost"
+msgstr "localhost"
+
+#: ../glade/gfax.glade.h:183
+msgid "modem"
+msgstr "modem"
+
+#: ../glade/gfax.glade.h:184
+msgid "oklabel"
+msgstr "oklabel"
+
+#: ../glade/gfax.glade.h:185
+msgid "ttyS0"
+msgstr "ttyS0"
+
+#: ../glade/gfax.glade.h:186
+msgid "ttyS1"
+msgstr "ttyS1"
+
+#: ../glade/gfax.glade.h:187
+msgid "ttyS2"
+msgstr "ttyS2"
+
+#: ../glade/gfax.glade.h:188
+msgid "ttyS3"
+msgstr "ttyS3"
+
+#: ../glade/send-druid.glade.h:1
+msgid "<b><big>Current Phone Books</big></b>"
+msgstr "<b><big>Esošā telefonu grāmata</big></b>"
+
+#: ../glade/send-druid.glade.h:2
+msgid "<b><big>Edit Phone book</big></b>"
+msgstr "<b><big>Rediģēt telefonu grāmatu</big></b>"
+
+#: ../glade/send-druid.glade.h:3
+msgid "<b>Facsimile Job Details</b>"
+msgstr "Faxa darba detaļas"
+
+#: ../glade/send-druid.glade.h:4
+msgid "<b>New fax information</b>"
+msgstr "<b>New fax information</b>"
+
+#: ../glade/send-druid.glade.h:5
+msgid "Add"
+msgstr "Add"
+
+#: ../glade/send-druid.glade.h:6
+msgid "Browse"
+msgstr ""
+
+#: ../glade/send-druid.glade.h:7
+msgid "Clear"
+msgstr "Dzēst"
+
+#: ../glade/send-druid.glade.h:8
+msgid "Close"
+msgstr "Taisīt ciet"
+
+#: ../glade/send-druid.glade.h:9 ../src/gfaxphonebook.cs:89
+#: ../src/gfaxsend.cs:142 ../src/sendphonebook.cs:105
+msgid "Contact"
+msgstr "Kontakti"
+
+#: ../glade/send-druid.glade.h:10
+msgid "Current Phone Book"
+msgstr "Esošā telefonu grāmata"
+
+#: ../glade/send-druid.glade.h:12
+#, fuzzy
+msgid "Delete phone book"
+msgstr "Dzēst telefonu grāmatu"
+
+#: ../glade/send-druid.glade.h:13
+msgid "Details"
+msgstr "Detaļas"
+
+#: ../glade/send-druid.glade.h:14
+msgid "E-Mail job results to:"
+msgstr "E-pasta darba rezultāts uz:"
+
+#: ../glade/send-druid.glade.h:15
+msgid "Enter a phone number and hit <enter>."
+msgstr "Ieraksti telefona numuru un nospied Enter."
+
+#: ../glade/send-druid.glade.h:16
+msgid "Fax number:"
+msgstr "Faxa numurs:"
+
+#: ../glade/send-druid.glade.h:17
+msgid "Fine resolution"
+msgstr "Laba rezolūcija"
+
+#: ../glade/send-druid.glade.h:18
+msgid "Gfax - Phone Book Selection"
+msgstr "Gfax - Telefona grāmatas izvēle"
+
+#: ../glade/send-druid.glade.h:19
+msgid "Gfax - Phone books"
+msgstr "Gfax - Telefona grāmata"
+
+#: ../glade/send-druid.glade.h:20
+msgid "Job"
+msgstr "Darbs"
+
+#: ../glade/send-druid.glade.h:21
+msgid "New Entry"
+msgstr "Jauns ieraksts"
+
+#: ../glade/send-druid.glade.h:22
+msgid "New Item"
+msgstr "Jauna sadaļa"
+
+#: ../glade/send-druid.glade.h:24 ../src/gui.cs:238 ../src/gui.cs:249
+msgid "Number"
+msgstr "Numurs"
+
+#: ../glade/send-druid.glade.h:25 ../src/gfaxphonebook.cs:87
+#: ../src/gfaxsend.cs:141 ../src/sendphonebook.cs:103
+msgid "Organization"
+msgstr "Organizācija"
+
+#: ../glade/send-druid.glade.h:27
+msgid "Phone Book Item List"
+msgstr "Telefongrāmatas liste"
+
+#: ../glade/send-druid.glade.h:28
+msgid "Phone Books"
+msgstr "Telefonu grāmata"
+
+#: ../glade/send-druid.glade.h:29
+msgid "Postscript file:"
+msgstr "Postscript-fails:"
+
+#: ../glade/send-druid.glade.h:30
+msgid "Save and Close"
+msgstr "Saglabāt un aizvērt"
+
+#: ../glade/send-druid.glade.h:31
+#, fuzzy
+msgid "Save and close"
+msgstr "Saglabāt un aizvērt"
+
+#: ../glade/send-druid.glade.h:32 ../src/gfaxsend.cs:139
+msgid "Send"
+msgstr "Sūtīt"
+
+#: ../glade/send-druid.glade.h:33
+msgid "Send Fax"
+msgstr "Nosūtīt faksu"
+
+#: ../glade/send-druid.glade.h:34
+msgid "Send immediately"
+msgstr "Sūtīt faksu nekavējoties"
+
+#: ../glade/send-druid.glade.h:35
+msgid "Transmit the fax"
+msgstr "Pārsūtīt faksu"
+
+#: ../glade/send-druid.glade.h:36
+msgid "Update"
+msgstr "Uzlabot"
+
+#: ../glade/send-druid.glade.h:37
+msgid "_File"
+msgstr "_Fails"
+
+#: ../src/efax.cs:384
+msgid "Scanning control files."
+msgstr ""
+
+#: ../src/efax.cs:397
+msgid "Running job "
+msgstr ""
+
+#: ../src/efax.cs:421 ../src/efax.cs:508
+msgid "Busy retries exceeded"
+msgstr ""
+
+#: ../src/efax.cs:468
+#, fuzzy
+msgid "Sending facsimile..."
+msgstr "Sūta faxu..."
+
+#. If successful then mv the control file to the done queue and flag
+#. a date for it's removal.
+#: ../src/efax.cs:492
+msgid "Success"
+msgstr "Veiksmīgi"
+
+#. fatal errors - no retry
+#. fatalError = true;
+#. change code in file
+#: ../src/efax.cs:516
+msgid "Fatal error"
+msgstr "Kļūmes"
+
+#. Modem error - no retry
+#. fatalError = true;
+#: ../src/efax.cs:522
+msgid "Fatal modem error"
+msgstr "Modema kļūdas"
+
+#. Modem not responding
+#. fatalError = true;
+#: ../src/efax.cs:528
+msgid "Modem not responding"
+msgstr "Nevar sakonektēties ar modemu"
+
+#. Program terminated
+#. fatalError = true;
+#: ../src/efax.cs:534
+msgid "Program terminated"
+msgstr ""
+
+#: ../src/fax.cs:60
+msgid "No Connection"
+msgstr "Nav konekcijas"
+
+#: ../src/fax.cs:71
+msgid ""
+"Efax transmit process running...\n"
+"Scanning job files every 30 seconds."
+msgstr ""
+
+#: ../src/fax.cs:77
+msgid "Error transport agent not specified!"
+msgstr "Kļūda faxu sūtīšanas programma nav norādīta!"
+
+#: ../src/fax.cs:132
+msgid "Run"
+msgstr "Startēt"
+
+#: ../src/fax.cs:135
+msgid "Sleep"
+msgstr "Gulēt"
+
+#: ../src/fax.cs:138
+msgid "Block"
+msgstr ""
+
+#: ../src/fax.cs:141
+msgid "Busy"
+msgstr "Aizņemts"
+
+#: ../src/fax.cs:144 ../src/fax.cs:244
+#, fuzzy
+msgid "Done"
+msgstr "Darīts"
+
+#: ../src/fax.cs:147
+#, fuzzy
+msgid "Fail"
+msgstr "_"
+
+#: ../src/fax.cs:150
+#, fuzzy
+msgid "New"
+msgstr "Jauns fax"
+
+#: ../src/fax.cs:241
+msgid "Receiving"
+msgstr "Saņemu"
+
+#: ../src/gfaxphonebook.cs:88 ../src/gfaxsend.cs:140
+#: ../src/sendphonebook.cs:104
+#, fuzzy
+msgid "Phone Number"
+msgstr "Porta numurs"
+
+#: ../src/gfaxphonebook.cs:213
+msgid "Are you sure you want to delete the phone book?"
+msgstr "Vai esi drošs, ka vēlies izdzēst esošo telefonu grāmatu?"
+
+#: ../src/gfaxphonebook.cs:297
+msgid ""
+"You have unsaved phone book entries.\n"
+" Are you sure you want to Quit?"
+msgstr ""
+"Tu neesi saglabājis telefonu grāmatas ierakstus.  \n"
+"Vai tu esi drošs, ka vēlies beigt darbu?  "
+
+#: ../src/gfaxphonebook.cs:460
+msgid "Press the <DELETE> key to delete an entry."
+msgstr "Nospied Delete, lai dzēstu ierakstu."
+
+#: ../src/gfaxprefs.cs:190 ../src/gfaxprefs.cs:208
+msgid "You need to exit Gfax and restart it when you change transport agents"
+msgstr ""
+
+#: ../src/gfaxsend.cs:88
+msgid ""
+"\n"
+"This is the first time you have run Gfax.\n"
+"Please run Gfax from the menu or command line and set your \n"
+"MODEM TYPE, PORT and Fax number under preferences.\n"
+"\n"
+"Gfax is initially setup to use Efax, you may change it use \n"
+"Hylafax if you prefer or require connection to a network \n"
+"facsimile server."
+msgstr ""
+
+#: ../src/gfaxsend.cs:164
+msgid "Spooled from print job"
+msgstr ""
+
+#: ../src/gfaxsend.cs:276
+msgid ""
+"\n"
+"The file you have entered does not exist.\n"
+"Please check the name and try again."
+msgstr ""
+
+#: ../src/gfaxsend.cs:310
+msgid ""
+"\n"
+"You have not entered a facsimile number!\n"
+"Please enter a number and press the <i><b>Enter</b></i> key or\n"
+"click the <i><b>Phone Book</b></i> button to select numbers or\n"
+"entire phone books."
+msgstr ""
+
+#: ../src/gui.cs:143
+msgid ""
+"\n"
+"This is the first time you have run Gfax.\n"
+"You should set your MODEM TYPE and PORT under preferences.\n"
+"\n"
+"Gfax is initially setup to use Efax, you may change it use \n"
+"Hylafax if you prefer or require connection to a network \n"
+"facsimile server."
+msgstr ""
+
+#: ../src/gui.cs:157
+msgid ""
+"Your spool directory is missing!\n"
+"\t\t\t\t\t\n"
+"Please login as the root user and create the "
+msgstr ""
+
+#: ../src/gui.cs:161
+msgid ""
+" directory.\n"
+"\n"
+"All users should be able to write to it.\n"
+msgstr ""
+
+#: ../src/gui.cs:166
+msgid ""
+"The doneq directory is missing in your spool directory!\n"
+"\t\t\t\t\t\n"
+"Please login as the root user and create the "
+msgstr "Lūdzu ielogojies kā sakne"
+
+#: ../src/gui.cs:169
+msgid ""
+"/doneq directory.\n"
+"\n"
+"All users should be able to write to it.\n"
+msgstr ""
+
+#: ../src/gui.cs:175
+msgid ""
+"The recq directory is missing in your spool directory!\n"
+"\t\t\t\t\t\n"
+"Please login as the root user and create the "
+msgstr ""
+
+#: ../src/gui.cs:178
+msgid ""
+"/recq directory.\n"
+"\n"
+"All users should be able to write to it.\n"
+msgstr ""
+
+#: ../src/gui.cs:237 ../src/gui.cs:248
+#, fuzzy
+msgid "Jobid"
+msgstr "Darba ID"
+
+#: ../src/gui.cs:239 ../src/gui.cs:250 ../src/gui.cs:259
+#, fuzzy
+msgid "Status"
+msgstr "Faxa status:"
+
+#: ../src/gui.cs:240 ../src/gui.cs:251
+msgid "Owner"
+msgstr "Īpašnieks"
+
+#: ../src/gui.cs:241 ../src/gui.cs:252
+msgid "Pages"
+msgstr "Lappuses"
+
+#: ../src/gui.cs:242 ../src/gui.cs:253
+#, fuzzy
+msgid "Dials"
+msgstr "Zvana"
+
+#: ../src/gui.cs:243 ../src/gui.cs:254
+#, fuzzy
+msgid "Send At"
+msgstr "Sūtīt"
+
+#: ../src/gui.cs:244 ../src/gui.cs:255
+msgid "Error"
+msgstr "Kļūda"
+
+#: ../src/gui.cs:258
+#, fuzzy
+msgid "Sender"
+msgstr "Sūtītājs"
+
+#: ../src/gui.cs:260
+#, fuzzy
+msgid "Pages  "
+msgstr "Lappuses"
+
+#: ../src/gui.cs:261
+msgid "Arrived"
+msgstr "Ienācis"
+
+#: ../src/gui.cs:262
+#, fuzzy
+msgid "Filename"
+msgstr "_Faila vārds"
+
+#: ../src/gui.cs:666
+msgid ""
+"Cannot read the facsimile file from the server. You most likely do not \n"
+"have permission to read the file.  Check the settings on your fax server."
+msgstr ""
+
+#: ../src/gui.cs:673
+msgid ""
+"Cannot start your faxviewer program. \n"
+"Please check your settings.  It is currently set to "
+msgstr ""
+
+#: ../src/gui.cs:674
+msgid "."
+msgstr ""
+
+#: ../src/gui.cs:709
+msgid ""
+"Cannot delete the facsimile file from the server. You most likely do not \n"
+"have permission to delete the file.  Check the settings on your fax server."
+msgstr ""
+
+#: ../src/gui.cs:715
+msgid ""
+"Cannot delete the file on the Hylafax server. \n"
+"Please check your settings or contact your system Administrator"
+msgstr ""
+
+#: ../src/gui.cs:785
+msgid "Copyright (C) 2003 George Farris <farrisg@gmsys.com>"
+msgstr ""
+
+#: ../src/gui.cs:786
+msgid "A Facsimile application for GNOME"
+msgstr ""
+
+#: ../src/gui.cs:831
+#, fuzzy
+msgid "Refreshing server status..."
+msgstr "Auto Refresh Queue"
+
+#: ../src/gui.cs:868
+#, fuzzy
+msgid "Refreshing queue..."
+msgstr "Auto Refresh Queue"
+
+#: ../src/gui.cs:934 ../src/gui.cs:953
+msgid "There are "
+msgstr ""
+
+#: ../src/gui.cs:934 ../src/gui.cs:953
+msgid " jobs in the queue"
+msgstr ""
+
+#: ../src/gui.cs:941 ../src/gui.cs:960
+msgid "There are 0 jobs in the queue"
+msgstr ""
+
+#: ../src/hylafax.cs:146
+msgid "You can not write data to this stream"
+msgstr "Tagad tu vari rakstīt datus."
+
+#: ../src/hylafax.cs:150
+msgid "You can not read data from this stream"
+msgstr "Tagad tu vari datus lasīt."
+
+#: ../src/hylafax.cs:158
+msgid ""
+"Could not connect to your Hylafax server.\n"
+"Check console messages for further information\n"
+"\n"
+"You might need to set a value for username."
+msgstr ""
+"Tu nevari piekonektēties pie Hylafax servera..\n"
+"\n"
+"Iespējams tev jānorāda pareizs lietotājvārds."
+
+#: ../src/main.cs:109
+msgid "Gfax help..."
+msgstr "Palīdzība Gfax"
+
+#: ../src/main.cs:135
+msgid ""
+"Gconfd cannot find your settings. \n"
+"If you are running Gfax immediately \n"
+"after an installation, you may have \n"
+"to log out and log back in again."
+msgstr ""
+
+#: ../src/newphonebook.cs:80
+#, fuzzy
+msgid "Use"
+msgstr "Lietot"
+
+#: ../src/phonebook.cs:295
+#, csharp-format
+msgid "Can't open file : {0}"
+msgstr "Nevar atvērt {0} failu"
+
+#: ../src/sendphonebook.cs:66
+msgid "You don't have any phone books yet."
+msgstr "Jums patlaban nav izveidota neviena telefona grāmata."
+
+#. Got have a column title or things won't show up
+#: ../src/sendphonebook.cs:94
+#, fuzzy
+msgid "Phone books"
+msgstr "Telefona grāmata"
+
+#~ msgid "0"
+#~ msgstr "0"
+
+#~ msgid "1"
+#~ msgstr "1"
+
+#~ msgid "10 Minutes"
+#~ msgstr "10 Minūtes"
+
+#~ msgid "1000"
+#~ msgstr "1000"
+
+#~ msgid "115200"
+#~ msgstr "115200"
+
+#~ msgid "15 Minutes"
+#~ msgstr "15 Minūtes"
+
+#~ msgid "1500"
+#~ msgstr "1500"
+
+#~ msgid "19200"
+#~ msgstr "19200"
+
+#~ msgid "2"
+#~ msgstr "2"
+
+#~ msgid "2000"
+#~ msgstr "2000"
+
+#~ msgid "2400"
+#~ msgstr "2400"
+
+#~ msgid "3"
+#~ msgstr "3"
+
+#~ msgid "30 Minutes"
+#~ msgstr "30 Minūtes"
+
+#~ msgid "38400"
+#~ msgstr "38400"
+
+#~ msgid "4"
+#~ msgstr "4"
+
+#~ msgid "4800"
+#~ msgstr "4800"
+
+#~ msgid "5"
+#~ msgstr "5"
+
+#~ msgid "5 Minutes"
+#~ msgstr "5 Minūtes"
+
+#~ msgid "500"
+#~ msgstr "500"
+
+#~ msgid "57600"
+#~ msgstr "57600"
+
+#~ msgid "6"
+#~ msgstr "6"
+
+#~ msgid "7"
+#~ msgstr "7"
+
+#~ msgid "8"
+#~ msgstr "8"
+
+#~ msgid "9"
+#~ msgstr "9"
+
+#~ msgid "9600"
+#~ msgstr "9600"
+
+#~ msgid ""
+#~ "A few modems respond to raising the DTR line (when opening the device) "
+#~ "with `OK'.  This can confuse `sendfax', because it will see this OK as "
+#~ "response to the next command.  Default is 0."
+#~ msgstr ""
+#~ "A few modems respond to raising the DTR line (when opening the device) "
+#~ "with `OK'.  This can confuse `sendfax', because it will see this OK as "
+#~ "response to the next command.  Default is 0."
+
+#, fuzzy
+#~ msgid "ATT (Dataport, Paradyne)"
+#~ msgstr "FCINIT='-j\\Q4'\t\t#AT&T (Dataport, Paradyne)"
+
+#~ msgid ""
+#~ "After the maximum number of tries for one page are reached, `sendfax' can "
+#~ "report an error and abort or continue.  Default is Yes."
+#~ msgstr ""
+#~ "After the maximum number of tries for one page are reached, `sendfax' can "
+#~ "report an error and abort or continue.  Default is Yes."
+
+#~ msgid ""
+#~ "An 'AT...' command that will be sent to the modem at the end of the modem "
+#~ "initialization, right before dialing."
+#~ msgstr ""
+#~ "An 'AT...' command that will be sent to the modem at the end of the modem "
+#~ "initialization, right before dialing."
+
+#~ msgid "Baud Rate Switch"
+#~ msgstr "Baud Rate Switch"
+
+#~ msgid ""
+#~ "Controls the amount of information written into the fax log file.  "
+#~ "Default is 3."
+#~ msgstr ""
+#~ "Controls the amount of information written into the fax log file.  "
+#~ "Default is 3."
+
+#~ msgid "Debug Level"
+#~ msgstr "Debug Level"
+
+#~ msgid "Dial Command"
+#~ msgstr "Zvanīšanas komanda"
+
+#~ msgid "Disabled"
+#~ msgstr "Deaktivizēt"
+
+#~ msgid "Fax Users Allowed"
+#~ msgstr "Faxa lietotājiem atļauts"
+
+#~ msgid "Fax Users Denied"
+#~ msgstr "Faxa lietotājiem nepieejams"
+
+#~ msgid "Hour"
+#~ msgstr "Stunda"
+
+#~ msgid ""
+#~ "How often you want the fax queue scanned.  Faxes won't be transmitted "
+#~ "until \"faxrunq\" is run to scan the queue.  This value is set in /etc/"
+#~ "crontab."
+#~ msgstr ""
+#~ "Cik bieži tu vēlies lai faxu rinda tiktu skenēta? \n"
+#~ "tiklīdz \"faxrunq\" darbojas skenējas rinda. Vērtība ir ielikta \n"
+#~ "iekš /etc/crontab ."
+
+#~ msgid "Ignore Carrier"
+#~ msgstr "Ignorēt pārplūdi"
+
+#~ msgid "Maximum Tries per Page"
+#~ msgstr "Maksimums mēģinājumu lapai	"
+
+#~ msgid "Mgetty+Sendfax"
+#~ msgstr "Mgetty+Sendfax"
+
+#~ msgid "Mgetty+Sendfax Setup"
+#~ msgstr "Uzstādīt Mgetty+Sendfax"
+
+#~ msgid "Minute"
+#~ msgstr "Minūte"
+
+#~ msgid "Modem Handshake"
+#~ msgstr "Modem Handshake"
+
+#~ msgid "Modem Initialization String"
+#~ msgstr "Modēma inicializēšana"
+
+#~ msgid "Modem Port"
+#~ msgstr "Modema ports"
+
+#~ msgid "Modem Quirks"
+#~ msgstr "Modema īpatnības"
+
+#~ msgid "Modem Speed  (bps)"
+#~ msgstr "Modema ātrums (bps)"
+
+#~ msgid "Modem Type"
+#~ msgstr "Modema tips"
+
+#, fuzzy
+#~ msgid "Motorola (Power Modem, 3400 Pro,..."
+#~ msgstr "FCINIT='-j\\Q1'\t\t#Motorola (Power Modem, 3400 Pro,.)"
+
+#, fuzzy
+#~ msgid "Multi-Tech (for bit reversal)"
+#~ msgstr "FCINIT='-or'\t\t  # Multi-Tech (for bit reversal)"
+
+#~ msgid "No"
+#~ msgstr "Nē"
+
+#~ msgid "None"
+#~ msgstr "Neviens"
+
+#~ msgid ""
+#~ "On some (very few) modems it is necessary to start with baudrate \"A\" "
+#~ "and switch to baudrate \"B\" after sending the `AT+FCLASS=2' command.  "
+#~ "Default is None."
+#~ msgstr ""
+#~ "Dažiem modemiem ir svarīgi sākt darbu no Baudrate\n"
+#~ "\"A\" un pārslēgties uz baudrate pēc 'AT+FCLASS=2' komandas\n"
+#~ "Noklusēta nav."
+
+#~ msgid "Open Delay (msec)"
+#~ msgstr "Atvērt ar nokavēšanos (milisekundes)"
+
+#, fuzzy
+#~ msgid "QuickComm (Spirit II)"
+#~ msgstr "FCINIT='-j*F1'\t\t # QuickComm (Spirit II)"
+
+#~ msgid "Run Fax Queue Every"
+#~ msgstr "Palaist Faxu rindu katru"
+
+#~ msgid "SendFax Config File"
+#~ msgstr "Sūtīt faxu konfigurācijas failu"
+
+#~ msgid "Sendfax Config File"
+#~ msgstr "Sūtīt faxu konfigurācijas failu"
+
+#~ msgid "Setup Druid"
+#~ msgstr "Uzstādīšanas pārvaldītājs"
+
+#~ msgid ""
+#~ "The location of the mgetty \"sendfax.config\" file.  Default is \"/etc/"
+#~ "mgetty+sendfax/sendfax.config\".  You shouldn't have to change this."
+#~ msgstr ""
+#~ "Lokācijas vieta mgetty \"sendfax.config\" failam. Noklusētais ir zem \n"
+#~ "\"/etc/mgetty+sendfax/sendfax.config\" Parasti šis fails nav jāmaina, bet tas ir iespējams, \n"
+#~ "ja rodas grūtības ar noklusētajiem uzstādījumiem.\""
+
+#~ msgid ""
+#~ "The maximum number of tries per page if the receiving end reports "
+#~ "reception errors.  Default is 3."
+#~ msgstr ""
+#~ "Maksimālais mēģinājumu daudzums, ja sanemšana lapai \n"
+#~ "ir neveiksmīga. Noklusētais ir 3."
+
+#~ msgid ""
+#~ "The speed to set your serial port at.  Try the highest and go down from "
+#~ "there."
+#~ msgstr ""
+#~ "Ātrums seriālajam portam. Pamēģiniet\n"
+#~ "vislielāko un pēc tam pakāpeniski mazāku ātrumu."
+
+#~ msgid ""
+#~ "This can be used to adapt `sendfax' to some peculiarities in certain "
+#~ "modems. Not normally required."
+#~ msgstr ""
+#~ "Šis varētu tikt izmantots lai `sendfax' varētu tikt "
+#~ "pieskaņots pie modemiem, kas parasti netiek izmantoti."
+
+#~ msgid ""
+#~ "This is the command used for dialing out. Usually this will be something "
+#~ "simple, as `ATDT' for tone or `ATDP' for pulse dialing."
+#~ msgstr ""
+#~ "Šī ir komanda, kas nodrošina izsūtīšanu uz ārpusi\n"
+#~ "vienkārsi `ATDT' tonim vai `ATDP' prieks impulsa toņa."
+
+#~ msgid ""
+#~ "This will initialize the modem when the port is opened.  See your modem "
+#~ "manual.  Default is ATZ."
+#~ msgstr ""
+#~ "šis inicializēs modemu, kas ports ir atvērts. Skatīt sava modema \n"
+#~ "aprakstā, ja tāds ir. Noklusētais ir ATZ."
+
+#~ msgid "Type of fax modem.  See your modem manual.  Default is auto."
+#~ msgstr ""
+#~ "Faxa modema tips. Noklusētais ir auto."
+
+#, fuzzy
+#~ msgid "USR (Courier, Sportster)"
+#~ msgstr "FCINIT='-j&H2'\t\t# USR (Courier, Sportster)"
+
+#, fuzzy
+#~ msgid "User Defined"
+#~ msgstr "Lietotāja definēts"
+
+#~ msgid ""
+#~ "Users allowed to use the fax system.  Can be empty only if the deny list "
+#~ "is populated.  These must be user names."
+#~ msgstr ""
+#~ "Lietotāji drīkst lietot faxu sistēmu. Var būt tukšs ja ieliek listē pie tiem\n"
+#~ "kam šāda iespēja ir liegta. Šiem jābūt lietotājvārdiem.\n"
+#~ ""
+
+#~ msgid ""
+#~ "Users denied from using the fax system. Can be empty only if the allow "
+#~ "list is populated."
+#~ msgstr ""
+#~ "Lietotāji bloķēti lai šo sistēmu lietotu. Var būt tukšs,\n"
+#~ "tikai tad, ja ir ielikts listē\n"
+#~ "pie attiecīgajiem lietotājiem."
+
+#~ msgid "Yes"
+#~ msgstr "Jā"
+
+#~ msgid "a4"
+#~ msgstr "a4"
+
+#~ msgid "auto"
+#~ msgstr "auto"
+
+#~ msgid "c2.0"
+#~ msgstr "c2.0"
+
+#~ msgid "cls2"
+#~ msgstr "cls2"
+
+#~ msgid "legal"
+#~ msgstr "legal"
+
+#~ msgid "letter"
+#~ msgstr "letter"
+
+#~ msgid "'-x /usr/spool/uucp/LCK..$DEV'"
+#~ msgstr "'-x /usr/spool/uucp/LCK..$DEV'"
+
+#~ msgid "'-x /var/lock/LCK..$DEV'"
+#~ msgstr "'-x /var/lock/LCK..$DEV'"
+
+#~ msgid "*"
+#~ msgstr "*"
+
+#~ msgid "-x /var/spool/uucp/LCK..$DEV'"
+#~ msgstr "-x /var/spool/uucp/LCK..$DEV'"
+
+#~ msgid "/etc/efax.rc"
+#~ msgstr "/etc/efax.rc"
+
+#~ msgid ""
+#~ "Complete...\n"
+#~ "\n"
+#~ "Your new phone book is ready for you to add items."
+#~ msgstr ""
+#~ "Complete...\n"
+#~ "\n"
+#~ "Your new phone book is ready for you to add items."
+
+#~ msgid "Efax config file"
+#~ msgstr "Efax konfigurēšanas fails"
+
+#~ msgid "Enter a phone number and hit <enter> or press the \"Add\" button"
+#~ msgstr ""
+#~ "Ierakstiet telefona numuru un nospiedeit enter vai "
+#~ "spiediet pogu \"Pievienot\"."
+
+#~ msgid "FCINIT=''"
+#~ msgstr "FCINIT=''"
+
+#~ msgid "Force xon/xoff"
+#~ msgstr "Force xon/xoff"
+
+#~ msgid "Gfax - Select postcript file"
+#~ msgstr "Gfax - izvēlēties postscript failu"
+
+#~ msgid "Lock File"
+#~ msgstr "saslēgt failu"
+
+#~ msgid "Preferences"
+#~ msgstr "Uzstādījumi"
+
+#~ msgid "Send later"
+#~ msgstr "Sūtīt vēlāk"
+
+#~ msgid ""
+#~ "Status Column Definition:   D = Complete, R = Running, F = Failed, S = "
+#~ "Sleeping, W = Waiting for modem, B = Blocked by job, P = Pending"
+#~ msgstr ""
+#~ "Stāvoklis definējumiem: D = Pabeigts, R = Procesā, F =\n"
+#~ "Neizdevies, S = Guļošs, W = Gaida brīvu modemu, B= Bloķēts, P=Apstājies \n"
+
+#~ msgid "Use cover page"
+#~ msgstr "Lietot priekšlapu"
+
+#~ msgid "New Phonebook"
+#~ msgstr "Jauna telefongrāmata"
+
+#~ msgid "label379"
+#~ msgstr "label379"
+
+#~ msgid "label383"
+#~ msgstr "label383"

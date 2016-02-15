@@ -1,0 +1,286 @@
+<gconfschemafile>
+    <schemalist>
+	<schema>
+        <key>/schemas/apps/gfax/general/refresh_queue_interval</key>
+        <applyto>/apps/gfax/general/refresh_queue_interval</applyto>
+        <owner>gfax</owner>
+        <type>int</type>
+		<locale name="C"></locale>
+		<default>30</default>
+	</schema>
+	<schema>
+        <key>/schemas/apps/gfax/general/run_setup_at_start</key>
+        <applyto>/apps/gfax/general/run_setup_at_start</applyto>
+        <owner>gfax</owner>
+        <type>bool</type>
+		<locale name="C"></locale>
+		<default>true</default>
+	</schema>
+	<schema>
+        <key>/schemas/apps/gfax/general/log_enabled</key>
+        <applyto>/apps/gfax/general/log_enabled</applyto>
+        <owner>gfax</owner>
+        <type>bool</type>
+		<locale name="C"></locale>
+		<default>false</default>
+	</schema>
+	<schema>
+        <key>/schemas/apps/gfax/general/refresh_queue_enabled</key>
+        <applyto>/apps/gfax/general/refresh_queue_enabled</applyto>
+        <owner>gfax</owner>
+        <type>bool</type>
+		<locale name="C"></locale>
+		<default>false</default>
+	</schema>
+	<schema>
+        <key>/schemas/apps/gfax/general/send_now</key>
+        <applyto>/apps/gfax/general/send_now</applyto>
+        <owner>gfax</owner>
+        <type>bool</type>
+		<locale name="C"></locale>
+		<default>true</default>
+	</schema>
+	<schema>
+        <key>/schemas/apps/gfax/general/email_notify</key>
+        <applyto>/apps/gfax/general/email_notify</applyto>
+        <owner>gfax</owner>
+        <type>bool</type>
+		<locale name="C"></locale>
+		<default>true</default>
+	</schema>
+	<schema>
+        <key>/schemas/apps/gfax/general/cover_page</key>
+        <applyto>/apps/gfax/general/cover_page</applyto>
+        <owner>gfax</owner>
+        <type>bool</type>
+		<locale name="C"></locale>
+		<default>false</default>
+	</schema>
+	<schema>
+        <key>/schemas/apps/gfax/general/hi_resolution</key>
+        <applyto>/apps/gfax/general/hi_resolution</applyto>
+        <owner>gfax</owner>
+        <type>bool</type>
+		<locale name="C"></locale>
+		<default>true</default>
+	</schema>
+	<schema>
+        <key>/schemas/apps/gfax/general/faxtracing</key>
+        <applyto>/apps/gfax/general/faxtracing</applyto>
+        <owner>gfax</owner>
+        <type>bool</type>
+		<locale name="C"></locale>
+		<default>false</default>
+	</schema>
+
+	<schema>
+        <key>/schemas/apps/gfax/general/phone_prefix</key>
+        <applyto>/apps/gfax/general/phone_prefix</applyto>
+        <owner>gfax</owner>
+        <type>string</type>
+		<locale name="C"></locale>
+		<default>none</default>
+	</schema>
+	<schema>
+        <key>/schemas/apps/gfax/general/fax_number</key>
+        <applyto>/apps/gfax/general/fax_number</applyto>
+        <owner>gfax</owner>
+        <type>string</type>
+		<locale name="C"></locale>
+		<default></default>
+	</schema>
+	<schema>
+        <key>/schemas/apps/gfax/general/email_address</key>
+        <applyto>/apps/gfax/general/email_address</applyto>
+        <owner>gfax</owner>
+        <type>string</type>
+		<locale name="C"></locale>
+		<default></default>
+	</schema>
+	<schema>
+        <key>/schemas/apps/gfax/general/transmit_agent</key>
+        <applyto>/apps/gfax/general/transmit_agent</applyto>
+        <owner>gfax</owner>
+        <type>string</type>
+		<locale name="C"></locale>
+		<default>hylafax</default>
+	</schema>
+	<schema>
+        <key>/schemas/apps/gfax/general/fax_viewer</key>
+        <applyto>/apps/gfax/general/fax_viewer</applyto>
+        <owner>gfax</owner>
+        <type>string</type>
+		<locale name="C"></locale>
+		<default>evince</default>
+	</schema>
+	<schema>
+        <key>/schemas/apps/gfax/transport/hylafax/hostname</key>
+        <applyto>/apps/gfax/transport/hylafax/hostname</applyto>
+        <owner>gfax</owner>
+        <type>string</type>
+		<locale name="C"></locale>
+		<default>localhost</default>
+	</schema>
+	<schema>
+        <key>/schemas/apps/gfax/transport/hylafax/port</key>
+        <applyto>/apps/gfax/transport/hylafax/port</applyto>
+        <owner>gfax</owner>
+        <type>string</type>
+		<locale name="C"></locale>
+		<default>4559</default>
+	</schema>
+	<schema>
+        <key>/schemas/apps/gfax/transport/hylafax/username</key>
+        <applyto>/apps/gfax/transport/hylafax/username</applyto>
+        <owner>gfax</owner>
+        <type>string</type>
+		<locale name="C"></locale>
+		<default></default>
+	</schema>
+	<schema>
+        <key>/schemas/apps/gfax/transport/hylafax/password</key>
+        <applyto>/apps/gfax/transport/hylafax/password</applyto>
+        <owner>gfax</owner>
+        <type>string</type>
+		<locale name="C"></locale>
+		<default></default>
+	</schema>
+
+
+
+	<schema>
+        <key>/schemas/apps/gfax/transport/efax/efax_modem_device</key>
+        <applyto>/apps/gfax/transport/efax/efax_modem_device</applyto>
+        <owner>gfax</owner>
+        <type>string</type>
+		<default>ttyS0</default>
+		<locale name="C">
+        	<short>Modem Device</short>
+        	<long>The serial port the modem is connected too.  Typical values are ttyS0, cua0 or modem.</long>
+      	</locale>
+	</schema>
+	<schema>
+        <key>/schemas/apps/gfax/transport/efax/efax_modem_init</key>
+        <applyto>/apps/gfax/transport/efax/efax_modem_init</applyto>
+        <owner>gfax</owner>
+        <type>string</type>
+		<locale name="C">
+        	<short>Modem initialization string</short>
+        	<long>The initialization code that is sent to the modem.</long>
+		</locale>
+		<default></default>
+	</schema>
+	<schema>
+        <key>/schemas/apps/gfax/transport/efax/efax_modem_fcinit</key>
+        <applyto>/apps/gfax/transport/efax/efax_modem_fcinit</applyto>
+        <owner>gfax</owner>
+        <type>string</type>
+		<locale name="C"></locale>
+		<default></default>
+	</schema>
+	<schema>
+        <key>/schemas/apps/gfax/transport/efax/efax_modem_reset</key>
+        <applyto>/apps/gfax/transport/efax/efax_modem_reset</applyto>
+        <owner>gfax</owner>
+        <type>string</type>
+		<locale name="C">
+			<short>Modem reset string</short>
+        	<long>The reset code that resets the modem to a power up state.  The -Kz code works with most modems.</long>
+		</locale>
+		<default>-kZ</default>
+	</schema>
+	<schema>
+        <key>/schemas/apps/gfax/transport/efax/efax_modem_speaker_mode</key>
+        <applyto>/apps/gfax/transport/efax/efax_modem_speaker_mode</applyto>
+        <owner>gfax</owner>
+        <type>int</type>
+		<default>1</default>
+		<locale name="C">
+			<long>0:never, 1:until carrier, 2:always, 3:on receive only</long>
+		</locale>
+	</schema>
+	<schema>
+        <key>/schemas/apps/gfax/transport/efax/efax_modem_speaker_volume</key>
+        <applyto>/apps/gfax/transport/efax/efax_modem_speaker_volume</applyto>
+        <owner>gfax</owner>
+        <type>int</type>
+		<default>0</default>
+		<locale name="C">
+			<long>0:very low, 1:low, 2:medium, 3:high</long>
+		</locale>
+	</schema>
+	<schema>
+        <key>/schemas/apps/gfax/transport/efax/efax_modem_class</key>
+        <applyto>/apps/gfax/transport/efax/efax_modem_class</applyto>
+        <owner>gfax</owner>
+        <type>string</type>
+		<locale name="C">
+			<long>Not currently used.</long>
+		</locale>
+		<default>auto</default>
+	</schema>
+	<schema>
+        <key>/schemas/apps/gfax/transport/efax/efax_modem_capabilities</key>
+        <applyto>/apps/gfax/transport/efax/efax_modem_capabilities</applyto>
+        <owner>gfax</owner>
+        <type>string</type>
+		<locale name="C">
+			<long>Not currently used.</long>
+		</locale>
+		<default></default>
+	</schema>
+	<schema>
+        <key>/schemas/apps/gfax/transport/efax/efax_lockfile</key>
+        <applyto>/apps/gfax/transport/efax/efax_lockfile</applyto>
+        <owner>gfax</owner>
+        <type>string</type>
+		<locale name="C">
+			<long>The name of the lock file according to your system's conventions.  If you're running Linux you shouldn't have to touch this.</long>
+		</locale>
+		<default>/var/lock/LCK..</default>
+	</schema>
+	<schema>
+        <key>/schemas/apps/gfax/transport/efax/efax_page_header</key>
+        <applyto>/apps/gfax/transport/efax/efax_page_header</applyto>
+        <owner>gfax</owner>
+        <type>string</type>
+		<locale name="C">
+		</locale>
+		<default></default>
+	</schema>
+	<schema>
+        <key>/schemas/apps/gfax/transport/efax/efax_retries</key>
+        <applyto>/apps/gfax/transport/efax/efax_retries</applyto>
+        <owner>gfax</owner>
+        <type>int</type>
+		<locale name="C"></locale>
+		<default>10</default>
+	</schema>
+	<schema>
+        <key>/schemas/apps/gfax/transport/efax/efax_next_jobid</key>
+        <applyto>/apps/gfax/transport/efax/efax_next_jobid</applyto>
+        <owner>gfax</owner>
+        <type>int</type>
+		<locale name="C"></locale>
+		<default>0</default>
+	</schema>
+	<schema>
+        <key>/schemas/apps/gfax/transport/efax/efax_papersize</key>
+        <applyto>/apps/gfax/transport/efax/efax_papersize</applyto>
+        <owner>gfax</owner>
+        <type>string</type>
+		<locale name="C"></locale>
+		<default>letter</default>
+	</schema>
+	<schema>
+        <key>/schemas/apps/gfax/transport/efax/efax_debug_messages</key>
+        <applyto>/apps/gfax/transport/efax/efax_debug_messages</applyto>
+        <owner>gfax</owner>
+        <type>string</type>
+		<locale name="C"></locale>
+		<default>c</default>
+	</schema>
+
+
+    </schemalist>
+</gconfschemafile>

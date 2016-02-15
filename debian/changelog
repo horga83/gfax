@@ -1,0 +1,161 @@
+gfax (0.7.7-0ubuntu3) jaunty; urgency=high
+
+  *fix receive queue parsing
+
+ -- George Farris <george@gmsys.com>  Thu, 24 Sep 2009 11:00:00 -0800
+
+gfax (0.7.7-0ubuntu2) jaunty; urgency=high
+
+  *fix registering of gconf schemas
+
+ -- George Farris <george@gmsys.com>  Thu, 17 Sep 2009 14:00:00 -0800
+
+gfax (0.7.7-0ubuntu1) jaunty; urgency=high
+  
+  *remove gfaxlpr script
+  *add cups backend cups-gfax script
+  *remove FAQ item about OpenOffice printer, Gfax should now work 
+  *with all cups enabled software.
+  *remove gnomeprint dependency 
+  *added fax tracing menu item to debug transmit agent problems
+  *added notification icon and system to work with cups printer
+  *updated everything to GPLv3
+  *fix toolbar to respect user's style
+  *use icon's from icon naming spec
+  *Remove G_About and use Gtk.AboutDialog
+  *enable column sorting in every treeview
+  *use DateTime.ParseExact for date string parsing
+  *add new column showing an icon related to the job status
+  *evolution import uses all fax contact fields now, not just BusinessFax
+  *fix alignment of column data
+  *improve liststore data logic
+  *display a human readable localized date in related columns
+  *fix job modification failing due to invalid transmitted job id
+  *fix autofoo for lib64 builds
+  *fix schema install killing gconfd
+  *update language files to changes
+  *trim all values when parsing queues
+  *hide some debug output into macros
+  *make G_ListView more generic and add column helpers for DateTime and Icons
+  *increase size of sender in job format to prevent cutting long sender names
+  *add prototype of new gfax tango icon
+
+ -- George Farris <george@gmsys.com>  Thu, 17 Sep 2009 14:00:00 -0800
+  
+gfax (0.7.6-0ubuntu1) dapper; urgency=high
+  
+  *removed all Mgetty support - never really was there anyway:-)
+  *added efax send status to the main window status view
+  *made the main window progressbar pulse when sending fax via efax
+  *fix add button not enabled if adding just numbers to the phonebook
+  *fix sending of busy faxes with efax, would only try once
+  *added double click to view a received fax
+  *don't try to open a non existing phonebook file
+  *can now select all received faxes and delete them
+  *added double click to job modify in send tab
+  *fix callback event args for various gtk widgets
+  *remove gfax.proc file use, interact with gui directly
+  *pulse progress bar when sending fax via efax
+  *update appbar line when sending fax via efax
+  *change default queue auto refresh to 30 seconds.
+  *added check for permission to read fax from server, otherwise would hang
+  *fix bug with efax sending
+  *fix bug with ghostscript conversion
+  *updated major network traffic to async operations
+  *when switching tabs make sure server status is updated in addition to queue
+  *make main progressbar show that there is network action
+  *fixed send time bug, was sending in the past
+  *updated debian control file with proper dependancies
+  *remove depreciated Gnome.About and start using Gtk.AboutDialog
+  *remove depreciated OptionMenu and use ComboBox
+  *removed all Mgetty support - never really was there anyway:-)
+  *added Latvian (lt.po) translation
+  *added Dutch (nl.po) translation  
+  *updated German (de.po) translation
+  *updated Italian (it.po) translation
+
+ -- George Farris <george@gmsys.com>  Fri, 09 Dec 2006 14:00:00 -0800
+
+gfax (0.7.5-0ubuntu3) dapper; urgency=low
+
+  *bug fix on on_StatusNotebook_switch_page (object o, SwitchPageArgs args)
+  
+ -- George Farris <george@gmsys.com>  Wed, 25 Oct 2006 15:35:05 -0800
+
+gfax (0.7.5-0ubuntu2) dapper; urgency=low
+
+  *added progressbar to main window for receiving faxes to view/print
+  *added delete button for received faxes
+  *fix modify job was not changing phone number
+  *added ability to download a fax from a hylafax server and view it.
+  *Change revision number 
+  *changed all Mono.Posix modules to Mono.Unix
+  *added check for libgnomeprint dev package in configure.in
+  *added "fax_viewer" schema item for viewing received faxes
+  *job cancel button should not be sensitive if no jobs selected on startup
+  
+ -- George Farris <george@gmsys.com>  Wed, 25 Oct 2006 09:35:05 -0800
+
+gfax (0.7.4-0ubuntu1) breezy; urgency=low
+
+  *Phantom release (only in my own mind) dosen't exist.
+   *added ability to modify a Hylafax job.
+  *moved /var/spool/gfax to ~/.local/share/gfax/spool
+  *added Evolution address book support (read only)
+  *fix crasher bug if entering text in "Current Phone Book" entry
+  *fix return of no contacts, should have been 0 not null
+  *rename Contact class to GfaxContact so it doesn't conflict with Evolution
+  *ported to new gtk-sharp-2.x api.
+  *changed gtk.combo widget to gtk.combobox, gtk.combo is depreciated
+  *updated to new file dialog in Gtk-2.x
+  *added shortcut for "New Fax"
+  *added error dialog if fax number is empty when "Send" is hit.
+  *removed preferences button, added Edit menu with preferences.
+  *change gfax.proc file location to ~/.local/share/gfax/gfax.proc .
+  *deleted many unused variables
+  *automatically migrate phone books from ~/.etc/gfax to ~/.config/gfax.
+  *Change revision number 
+  
+ -- George Farris <george@gmsys.com>  Mon, 23 Oct 2006 09:35:05 -0800
+  
+gfax (0.7.3-0ubuntu2) hoary; urgency=low
+
+  * Change revision number 
+
+ -- George Farris <george@gmsys.com>  Wed, 13 Apr 2005 09:35:05 -0800
+
+gfax (0.7.3-0ubuntu1) hoary; urgency=low
+
+  * Change revision number 
+
+ -- George Farris <george@gmsys.com>  Fri,  4 Mar 2005 09:35:05 -0800
+
+gfax (0.7.3-0) hoary; urgency=low
+
+  * Updated German translation.
+  * Removed unused tooltips.
+  * changelog
+  * changelog
+
+ -- George Farris <george@gmsys.com>  Wed,  2 Mar 2005 09:38:06 -0800
+
+gfax (0.7.2-1) hoary; urgency=low
+
+  * fix /tmp/gfax.proc file name creation race.
+  * fix Hylafax receive queue display.
+  * update make deb script
+  * add German translation.
+
+ -- George Farris <george@gmsys.com>  Mon, 17 Feb 2005 10:14:00 -0800
+
+gfax (0.7.1-1) hoary; urgency=low
+
+  * fix menu bug.
+	
+ -- George Farris <george@gmsys.com>  Mon, 17 Feb 2005 08:59:00 -0800
+
+gfax (0.7.0-1) hoary; urgency=low
+
+  * Major point release please see the News file.
+	
+ -- George Farris <george@gmsys.com>  Mon, 15 Feb 2005 15:39:00 -0800

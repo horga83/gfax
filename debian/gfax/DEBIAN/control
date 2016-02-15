@@ -1,0 +1,16 @@
+Package: gfax
+Version: 0.7.7-0ubuntu3
+Architecture: i386
+Maintainer: George Farris <george@gmsys.com>
+Installed-Size: 800
+Depends: efax | hylafax-client
+Section: gnome
+Priority: optional
+Description: GNOME frontend to Hylafax and Efax facsimile programs.
+  The GFAX project aims to provide a free front end to the various
+  facsimile programs available for Linux and other operating systems
+  that use GNOME.
+  .
+  GFAX provides the familiar "pop up" window and phone book support
+  when one "prints" to a "fax" printer as well as viewing or printing
+  received facsimiles on a Hylafax server.

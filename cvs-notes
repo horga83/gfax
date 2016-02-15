@@ -1,0 +1,59 @@
+Build Ubuntu package with 
+ dpkg-buildpackage -rfakeroot
+
+My CVS notes
+
+CHECKOUT
+--------
+Check out the current working branch and prune directories
+	cvs co -P gfax
+This would assume you have changed from the HEAD branch.
+To checkout a named tag
+	cvs co -P -r gfax_0_7_2 gfax
+
+While branch names refer to the latest code at the end of a 
+branch (and as such, are dynamic), tag names refer 
+to the static version of code that existed upon the tag's creation. 
+As a result, you cannot commit changes back into the tree at the 
+tagged place that you checked them out from.
+
+
+NEW RELEASE
+-----------
+To create a new branch:
+Branch name is gfax_0_7, the <tag> tag works on the working
+copy so you should do a HEAD checkout first.
+	cvs co -P gfax
+	cvs tag -r gfax_0_7 
+Use this when releaseing a new version of the program
+Access the branch with:
+	cvs co -P -r gfax_0_7
+
+To find out what branch a file is on do this:
+	cvs status -v filename
+
+
+ADD FILE
+--------
+To add a file to the repository, create the file locally and then add it:
+	cvs add filename
+	cvs commit
+
+MERGE release back to HEAD
+--------------------------
+Checkout HEAD first
+	cvs co -P -r HEAD
+now merge tag (maybe from branch)
+	cvs update -j gfax_0_7
+then commit
+	cvs commit
+You can only do this once per branch, after that you must merge the branch
+and file version:
+	cvs update -j 1.2.2.2 -j gfax_0_7 src/gui.cs
+
+
+Move to branch
+	cvs update -r gfax_0_7
+Move back to HEAD
+	cvs update -A
+

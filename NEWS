@@ -1,0 +1,357 @@
+Whats new in gfax-0.7.7
+============================================
+Gfax should now work with all software that can print to a CUPS printer.
+
+Noteable change is that Gfax MUST be running BEFORE you try to use the 
+fax system.  It will minimise to the system tray.
+
+Fax tracing ability without recomiple.
+
+Gfax is now under the GPLv3 license.
+
+
+Whats new in gfax-0.7.6
+============================================
+The "Wow it actually works" release.
+
+Yes folks, if you check the Changelog you will find a significant amount 
+of work has been done to polish this release.  Many thanks to the crew 
+on the mailing list who have been very helpful in testing and providing 
+feedback.
+
+I would like to acknowledge and thank the following individuals for their
+patience, testing and feedback.
+  Jean Louis Argente
+  Sasa Ostrouska
+  Bart Verstraete
+  Aaron Peromsik
+
+Much work has been put into polishing Hylafax and Efax support.
+The following is a list of new or changed items.  If you have tried Gfax in 
+the past and have been disappointed we recommend you checkout the 0.7.6 version.
+We think you will be pleased.  There is still work to be done but we 
+have a great group of people providing feedback, which really helps.
+  
+
+EFAX CHANGES:
+=============
+ -When sending a fax with Efax, the main status window will display the 
+  progress and the progressbar will pulse while the fax is being transmitted.
+ -The appbar will display the "Sending fax..." state.
+ -There is no longer a gfax.proc file, the GUI is updated directly from the 
+  efaxd thread.
+ -The queue scanning is now 30 seconds instead of 60 seconds for dealing with
+  faxes sent via Efax.
+
+HYLAFAX CHANGES:
+================
+ -Much of the network traffic is now asynchronous, which means Gfax will 
+  not hang when getting status, switching tabs etc.  More to follow in the
+  next version.
+ -Main progressbar now pulses when there is network traffic.
+ -Server status is now updated whenever the queue status is updated.
+ -Can now double click on a received facsimile to to view it.
+ -Can now select multiple or all received faxes and delete them.
+ -Double clicking on job to send will now popup job modify dialog in send tab.
+ -Gfax will check for permission to read fax from the fax server and popup a
+  notification if the user does not have permission to view the fax.
+
+OTHER CHANGES:
+==============
+ -Debian control file has been updated with proper dependancies.
+ -Removed depreciated Gnome.About and replaced with Gtk.AboutDialog.
+ -Removed depreciated OptionMenu and replaced ComboBox.
+ -Removed all Mgetty support - never really was there anyway:-)
+
+ -Added Latvian (lt.po) translation
+ -Added Dutch (nl.po) translation  
+ -Updated German (de.po) translation
+ -Updated Italian (it.po) translation
+
+
+BUGS FIXED:
+===========
+ -Fix: "Add" button was not enabled if adding just numbers to the phonebook.
+ -Fix: When sending a fax via Efax, if the fax result was "Busy" Gfax would 
+       not retry.  Gfax will now try the set number of times (EfaxRetry).
+ -Fix: "Don't try to open a non existing phonebook file.
+ -Fix: Various callback event args have been changed for newer versions of
+       Gtk-Sharp, these have been updated.
+ -Fix: "Efax sending was broken in 0.7.5, now works.
+ -Fix: Ghostscript conversion of files for Efax was failing.
+ -Fix: Gfax was setting the time in the past due to a timezone bug, 
+       consequently Hylafax jobs never ran and couldn't be modified.
+  
+
+
+Whats new in gfax-0.7.5
+============================================
+Hylafax received facsimiles can now be viewed/printed or deleted.
+Evolution addressbooks are now supported.  See Note 1 in the README.
+Hylafax jobs can be modified after sending.  
+Newer GTK file dialog supported.
+Some other small UI changes.
+Gfax Phone books and spool directory is moved to ~/.config and ~/.local.
+Gfax Phonebooks will be moved automatically.
+Many bugs fixed.
+
+
+Whats new in gfax-0.7.4
+============================================
+There never really was a 0.7.4 release, I was just messing with your mind.
+
+Whats new in gfax-0.7.3
+============================================
+Updated German translation.
+Deleted status tooltips that are not used anymore due
+to clear text status words.
+
+Whats new in gfax-0.7.2
+============================================
+fix /tmp/gfax.proc file name creation race.
+fix Hylafax receive queue display.
+update make deb script
+add German translation.
+
+
+Whats new in gfax-0.7.1
+============================================
+Bad release forget about it:-)
+
+
+Whats new in gfax-0.7.0
+============================================
+Major UI change and improvements, lots of HIG changes.
+Much better phonebook support for creating phonebooks.
+Efax support has been added.
+Build tools changed to use automake/autoconf.
+Full gettext support for multiple languages.
+Many bugs fixed.
+
+
+
+
+Whats new in gfax-0.6.4
+============================================
+Bug fix release. Toggle in list of items to send was not active.
+
+Whats new in gfax-0.6.3
+============================================
+Bug fix release. Stupid typo on my part stopped phonebook working 
+properly.
+
+Whats new in gfax-0.6.2
+============================================
+Bug fix release. When sending a fax and selecting a number from the 
+phone book, the number and organization entry were swapped.
+
+Whats new in gfax-0.6.1
+============================================
+Changes have been made to allow Gfax to compile against mono-beta3 (0.96)
+and Gtk#-0.98 or higher, will probably not work with any earlier versions.
+This is in preparation for the up coming Mono 1.0 release.
+
+
+Whats new in gfax-0.6.0, Major point release
+============================================
+Changes have been made to allow Gfax to compile against Gtk#-0.17, 
+and will probably not work with any earlier versions.
+
+Full username and password authentication is now working in Hylafax.
+Authentication can now be either by allowing the machine host name or
+IP address or system administrators can add Hylafax users and passwords
+for their fax server (see FAQ).
+
+Gfax now runs the main application after sending a fax with the send 
+wizard, enabling immediate status of the fax job to be viewed.
+
+Gfax now fully supports delayed sending of facsimiles with from the
+send wizard and the main application.  Facsimiles can be delayed up to 
+30 days in the future.
+
+Status queue displays have been updated to display the "Send At" time 
+for all jobs.
+
+While transferring jobs to the hylafax server the user can press the 
+"Cancel" button, deleting the job/file on the fax server and returning
+to the main display.
+
+Gfax-0.6 is now in updated on the GNOME CVS repository.
+
+
+Whats new in gfax-0.6beta9:
+===========================
+Network status queue data reception is much better and should work
+without problem now.  Previously Gfax would crash or the entire queue
+would not be displayed if there were many jobs.
+
+Gfax will now display the number of jobs left in the Send queue in 
+the window title bar so one can track send status when Gfax is 
+minimized. 
+
+The total number of jobs displayed in the status line at the bottom
+of the window.  This status line will also show when Gfax is 
+auto-refreshing the queue.
+
+Queue selection has been added to the "Job" menu.
+
+When sending a fax from the "New Fax" button, fax destinations can be 
+deselected.  You can now select an entire phone book and then deselect
+a few numbers.
+
+Bug fixes:
+----------
+	*start auto refresh on program startup if enabled.
+	*change socket read code so all data will be read in hylafax.cs
+	*when deleting jobs from the Done queue it is refreshed properly.
+	
+
+
+
+Whats new in gfax-0.6beta8:
+===========================
+Well it turns out that the beta7 didn't quite do the job.  The
+Send Wizrad worked with a phone book item but not entering a 
+number in the entry box, this is now fixed.  Also the fax wizard 
+would send the fax to the server even if there weren't any valid 
+destinations, this is also fixed.
+
+
+Whats new in gfax-0.6beta7:
+===========================
+This is just a quick bug fix as beta6 send wizard was bad.
+
+
+Whats new in gfax-0.6beta6:
+===========================
+Ported to mono >= 0.30 and gtk-sharp-0.15.
+It should work on the likes of Fedora Core 1 and Redhat 9 to name a few.
+
+If you run Fedora try our yum repository for installation, see
+http://gfax.cowlug.org for more information.
+
+The biggest news is a new wizard to add phone books.  The old way of
+adding phone books was prone to error and not intuitive at all.
+
+
+Bug fixes:
+----------
+	*remove glade errors when starting.
+	*clear phone book list items at appropriate times.
+	*deleting phone book correctly deletes the file.
+
+Changes:
+---------
+	*compile with gtk-sharp-0.15 and Mono-0.30.
+	*swap "Add" and "Clear" buttons for adding phone items.
+	*added stock icons to "Add" and "Clear" buttons.
+	*added class for new phone book wizard.
+	*changes to main code to support new phone book wizard.
+	*new dialog in gfax.glade file for new phone book
+	 
+
+
+
+
+Whats new in gfax-0.6beta5:
+===========================
+This version is basically a port to mono >= 0.28 and gtk-sharp-0.14.
+It should work on the likes of Fedora Core 1 and Redhat 9 to name a few.
+
+This is the first version with a proper working spec file for building 
+rpms.
+
+Fedora Core 1 users note:
+Unless one has the CVS version of Orbit gfax will crash upon exit, this 
+is not a problem, everything still works fine.  Fedora Core 2 will most 
+likely have this fixed.
+
+Bug fixes:
+----------
+	*created spec file for rpms.
+	*fixed schema installation, works for all users now.
+	*adding new phone book didn't work quite right, fixed.
+	*deleteing item in phonebook didn't allow saving after, fixed.
+	*now compiles with mono >= 0.28 and gtk-sharp-0.14.
+	 
+Changes:
+----------
+	*none.
+
+Whats new in gfax-0.6beta4:
+===========================
+The send druid now displays all the numbers that you have choosen to send 
+the fax to.  Each number in the list is preceded with a check mark which 
+allows you to deselect numbers in your list.  For example:
+	-Print to a fax to send it.
+	-Press the "Phonebook" button and select a phonebook from the "Phone Books"
+	 list and press "OK".
+	-You should now see all the numbers that were in your phone book.
+	-Deselect desired numbers by toggling the checkmark off.
+
+Numbers may be "built up" by continually selecting phone books, phone book
+items or manually entering a number in the entry provided.
+
+Stretching the druid expands the list properly.
+
+Other changes to the send druid include the ability to change the facsimile
+resolution, email address and notification feature.  Notification and
+resolution settings previously didn't get transmitted to hylafax, they are 
+now working.
+
+Bug fixes:
+----------
+	*Don't delete your file when sending the file from the "New Fax" fucntion.
+	*Don't delete your file if piped in from the command line.
+	*Delete Job button was active when no jobs to delete.
+	*Delete item button active when no items selected.	
+	*Removed modal setting from About dialog.
+	*When adding numbers from a phone book in the send druid it wouldn't 
+	 display a single number if the organization was not set.
+	 
+Changes:
+----------
+	*Send druid now displays numbers to send instead of "MULTIPLE NUMBERS."
+	*Added toggle to send druid, you can now deselect numbers.
+	*Resolution setting is now functional for Hylafax.
+	*Email notification is now functional for Hylafax.
+	*Changed spool directory location to /var/spool/gfax
+	*Set "Rules Hint" in glade file so lists follow theme.
+	*Added phonebook support to "New Fax" function.
+	*Clear "New Fax" page properly if switching to main and back.
+	
+
+Whats new in gfax-0.6beta3:
+===========================
+This release should be far more functional that previous releases, please join
+the mail list and help with bug reports.  Many thanks to Stephan Sachse for
+his feedback.
+
+Bug fixes:
+----------
+  *create phonebook directory (~/.etc/gfax/) if it doesn't exist.
+  *create "phonebooks" file if it doesn't exist.
+
+Changes:
+----------
+  *Changed the default queue that is displayed on startup to the send queue.
+  *Added ability to delete Hylafax jobs.
+  *Made "Delete Job" button sensitive only when showing send queue.
+
+  *Gfax now attempts to display the proper sensitivity for many
+   buttons, such as "Delete" and "Edit" in the Phonebooks page.
+
+  *The send fax page is now functional and postscript files can be sent
+   directly from gfax.
+
+  *The makefile has been updated to install schema on "make install", you
+   will no longer have to do a seperate "make schema".
+
+  *When creating a new phone book the base directory defaults to ~/.etc/gfax
+   so users will only have to enter a file name and not the entire path.
+
+  *Created a gfaxlpr command for use with apps like OpenOffice.  It seem that
+   reading input in the shell sometimes fails so gfaxlpr does nothing but
+   read from the standard input.  Hopefully this will work better for 
+   printing from applications.  See the INSTALL file for more information
+   about defining printers in OpenOffice.

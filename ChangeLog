@@ -1,0 +1,319 @@
+0.7.7 release
+-------------
+2008-05-23	George Farris <george@gmsys.com>
+  *remove gfaxlpr script
+  *add cups backend cups-gfax script
+  *remove FAQ item about OpenOffice printer, Gfax should now work 
+   with all cups enabled software.
+   
+2008-05-09	George Farris <george@gmsys.com>
+  *remove gnomeprint dependency 
+  *added fax tracing menu item to debug transmit agent problems
+  *added notification icon and system to work with cups printer
+  *updated everything to GPLv3
+
+2007-11-06  Martin Szulecki <gfax@sukimashita.com>
+  *fix toolbar to respect user's style
+  *use icon's from icon naming spec
+  *Remove G_About and use Gtk.AboutDialog
+  *enable column sorting in every treeview
+  *use DateTime.ParseExact for date string parsing
+  *add new column showing an icon related to the job status
+  *evolution import uses all fax contact fields now, not just BusinessFax
+  *fix alignment of column data
+  *improve liststore data logic
+  *display a human readable localized date in related columns
+  *fix job modification failing due to invalid transmitted job id
+  *fix autofoo for lib64 builds
+  *fix schema install killing gconfd
+  *update language files to changes
+  *trim all values when parsing queues
+  *hide some debug output into macros
+  *make G_ListView more generic and add column helpers for DateTime and Icons
+  *increase size of sender in job format to prevent cutting long sender names
+  *add prototype of new gfax tango icon
+
+0.7.6 release
+-------------
+2006-12-02  George Farris <george@gmsys.com>
+  *updated de.po translations
+  *added lv.po translations
+  *added it.po translations
+  
+2006-11-29  George Farris <george@gmsys.com>
+  *added efax send status to the main window status view
+  *made the main window progressbar pulse when sending fax via efax
+  
+2006-11-27  George Farris <george@gmsys.com>
+  *fix add button not enabled if adding just numbers to the phonebook
+  
+2006-11-25  George Farris <george@gmsys.com>
+  *fix sending of busy faxes with efax, would only try once
+  
+2006-11-17  George Farris <george@gmsys.com>
+  *added double click to view a received fax
+  *don't try to open a non existing phonebook file
+  *can now select all received faxes and delete them
+  *added double click to job modify in send tab
+  *fix callback event args for various gtk widgets
+  
+2006-11-16  George Farris <george@gmsys.com>
+  *remove gfax.proc file use, interact with gui directly
+  *pulse progress bar when sending fax via efax
+  *update appbar line when sending fax via efax
+  
+2006-11-14  George Farris <george@gmsys.com>
+  *change default queue auto refresh to 30 seconds.
+  *added check for permission to read fax from server, otherwise would hang
+  *fix bug with efax sending
+2006-11-14 Jean Louis argente <silver84000 at gmail.com>
+  *fix bug with ghostscript conversion
+  
+2006-11-10  George Farris <george@gmsys.com>
+  *updated major network traffic to async operations
+  *when switching tabs make sure server status is updated in addition to queue
+  *make main progressbar show that there is network action
+  *fixed send time bug, was sending in the past
+  
+2006-10-30  George Farris <george@gmsys.com>
+  *updated debian control file with proper dependancies
+  
+2006-10-29  George Farris <george@gmsys.com>
+  *remove depreciated Gnome.About and start using Gtk.AboutDialog
+  *remove depreciated OptionMenu and use ComboBox
+  
+2006-10-27  George Farris <george@gmsys.com>	
+  *removed all Mgetty support - never really was there anyway:-)
+
+2006-10-27  Bart Verstraete <bartverstraete@telenet.be>
+  *added Dutch translation  
+
+
+0.7.5 release 
+-------------
+2006-10-25  George Farris <george@gmsys.com>	
+	*added progressbar to main window for receiving faxes to view/print
+
+2006-10-23  George Farris <george@gmsys.com>	
+	*added ability to download a fax from a hylafax server and view it
+	*fix - modify job was not changing phone number
+	*added delete button for received faxes
+
+2006-10-16  George Farris <george@gmsys.com>	
+	*added "fax_viewer" schema item for viewing received faxes
+	*added fax viewer preference
+	*job cancel button should not be sensitive if no jobs selected on startup
+	
+2006-08-31  George Farris <george@gmsys.com>	
+	*changed all Mono.Posix modules to Mono.Unix
+	*added check for libgnomeprint dev package in configure.in
+	
+
+0.7.4 release (Never really happend, is actually 0.7.5)
+-------------
+2005-12-22  George Farris <george@gmsys.com>	
+	*added ability to modify a Hylafax job.
+	
+2005-12-19  George Farris <george@gmsys.com>	
+	*moved /var/spool/gfax to ~/.local/share/gfax/spool
+	
+2005-12-16  George Farris <george@gmsys.com>	
+	*added Evolution address book support (read only)
+	*fix crasher bug if entering text in "Current Phone Book" entry
+	
+2005-12-09  George Farris <george@gmsys.com>
+	*fix return of no contacts, should have been 0 not null
+	*rename Contact class to GfaxContact so it doesn't conflict with Evolution
+	
+2005-12-09  George Farris <george@gmsys.com>
+	*ported to new gtk-sharp-2.x api.
+	*changed gtk.combo widget to gtk.combobox, gtk.combo is depreciated
+	*updated to new file dialog in Gtk-2.x
+	*added shortcut for "New Fax"
+	*added error dialog if fax number is empty when "Send" is hit.
+	*removed preferences button, added Edit menu with preferences.
+	
+2005-12-02  George Farris <george@gmsys.com>
+	*change gfax.proc file location to ~/.local/share/gfax/gfax.proc .
+	*deleted many unused variables
+	*automatically migrate phone books from ~/.etc/gfax to ~/.config/gfax.
+	
+0.7.3 release 
+-------------
+2005-02-28  George Farris <george@gmsys.com>
+	*Updated German translations.
+	*Removed listview tooltip, no longer required.
+
+0.7.2 release 
+-------------
+2005-02-17  George Farris <george@gmsys.com>
+	*fix /tmp/gfax.proc file name creation race.
+	*fix Hylafax receive queue display.
+	*update make deb script
+	*add German translation.
+
+0.7.1 release 
+-------------
+2005-02-17  George Farris <george@gmsys.com>
+	*fix menu bug.
+
+0.7.0 release
+-------------
+2005-02-15	George Farris <george@gmsys.com>
+	* Major point release please see the News file.
+
+0.6.3 release
+-------------
+2004-06-29	George Farris <george@gmsys.com>
+	*fix phone book typo.
+	
+0.6.2 release
+-------------
+2004-06-29	George Farris <george@gmsys.com>
+	*fix phone number and org were swapped when sending a fax.
+	
+0.6.1 release
+-------------
+2004-06-25	George Farris <george@gmsys.com>
+	*port to mono-beta3
+
+0.6.0 Point release
+-------------------
+2004-03-13	George Farris <george@gmsys.com>
+	*added user/password authentication in Hylafax.
+	*added check for existance of the SPOOLDIR directory
+	*make phone number have focus in send fax druid.
+	*run the main app after sending a fax with the wizard.
+	
+2004-03-12	George Farris <george@gmsys.com>
+	*added delayed faxing sending capability
+	*set default icons for menu items.
+	*changed gfax.glade and send-druid.glade to support delayed faxing.
+	*added gconf key for storing hylafax password.
+	
+2004-03-10	George Farris <george@gmsys.com>
+	*added "Send At" column to queue display.
+	
+2004-03-06	George Farris <george@gmsys.com>
+	*Code cancel fax function in progressbar.
+	
+2004-03-06	George Farris <george@gmsys.com>
+	*ported code to gtk#-0.17, minor changes in treeview code.
+
+Beta 9 release
+--------------
+2004-03-01	George Farris <george@gmsys.com>
+	*display number of send jobs in window title.
+	*added toggle to send fax window. you can now deselect numbers.
+	*addded queue selection to "Jobs" menu.
+	*when deleting jobs from a the Done queue it is refeshed properly.
+
+2004-02-29	George Farris <george@gmsys.com>
+	*added refresh queue status message to appbar if auto refresh.
+	*start auto refresh on program startup if enabled.
+	
+2004-02-21	George Farris <george@gmsys.com>
+	*change socket read code so all data will be read in hylafax.cs
+	*added number of jobs in the queue to the status bar.
+	
+Beta 8 release
+--------------
+2004-02-18	George Farris <george@gmsys.com>
+	*fix bug: send fax wizard didn't work with number from entry box.
+	*don't send the file to the fax server if no destinations set.
+	
+2004-02-15	George Farris <george@gmsys.com>
+	*fix bug: add GConf.PropertyEditors.EditorShell shell in send class.
+	
+
+Beta 7 release
+--------------
+2004-02-11	George Farris <george@gmsys.com>
+	*fix bug: send wizard fix - bad port:-)
+	
+Beta 6 release
+--------------
+2004-02-11	George Farris <george@gmsys.com>
+	*remove glade errors when starting.
+	*changes to compile with gtk-sharp-0.15 and Mono-0.30.
+	*swap "Add" and "Clear" buttons for adding phone items.
+	*added stock icons to "Add" and "Clear" buttons.
+	
+2004-01-13	George Farris <george@gmsys.com>
+	*clear phone book list items at appropriate times.
+	*added class for new phone book wizard.
+	*changes to main code to support new phone book wizard.
+	*Fix bug: deleting phone book correctly deletes the file.
+	
+2004-01-06	George Farris <george@gmsys.com>
+	*new dialog in gfax.glade file for new phone book
+
+Beta 5 release
+--------------
+2003-12-29	George Farris <george@gmsys.com>
+	*created spec file for rpms.
+	*fixed schema installation, works for all users now.
+	*adding new phone book didn't work quite right, fixed.
+	*deleteing item in phonebook didn't allow saving after, fixed.
+	*now compiles with mono >= 0.28 and gtk-sharp-0.14.
+
+Beta 4 release
+--------------
+2003-06-14	George Farris <george@gmsys.com>
+	*send druid now displays numbers to send instead of "MULTIPLE NUMBERS."
+	*added toggle to send fax druid. you can now deselect numbers.
+	*resolution setting is now functional in Hylafax.
+	*email notification is now functional in Hylafax.
+	
+2003-06-03	George Farris <george@gmsys.com>
+	*changed spool directory to /var/spool/gfax
+	*set "Rules Hint" in glade file so lists follow theme.
+	*Fix bug: don't delete file when sending file from Gfax.
+	*Fix bug: don't delete file if not in /var/spool/gfax.
+	
+2003-06-02	George Farris <george@gmsys.com>
+	*Fix bug: Delete Job button active when no job.
+	*Fix bug: Delete item button active when no items selected.	
+
+2003-05-27	George Farris <george@gmsys.com>
+	*sendphonebook.cs changes to support the send page in gfax
+	*added phonebook support to "New Fax" window.
+	*Fix bug: removed modal from About dialog.
+	*Fix bug: when adding numbers from phonebook in gfaxsend it doesn't display
+     a single number if the company is not set.
+	*Clear "New Fax" page proper if switching to main and back.
+	 
+Beta 3 release
+--------------
+2003-05-21	George Farris <george@gmsys.com>
+	*Make sure Delete and Edit buttons sensitive only when proper in phb page.
+	*Sendfax page now functional.
+	*Update Makefile to install schema on "make install".
+	*Make sure DeleteJob button is senitive at right time.
+	*Created gfaxlpr command for apps that fail with gfax like OpenOffice.
+	
+2003-05-20	George Farris <george@gmsys.com>
+	*Fix bug: create phonebook directory if it doesn't exist.
+	*Fix bug: create "phonebooks" file if it doesn't exist.
+	*Add default directory for new phonebook (~/.etc/gfax).
+	
+2003-05-17	George Farris <george@gmsys.com>
+	*Changed default queue to send queue.
+	*Added ability to delete Hylafax jobs.
+	*Made "Delete Job" button sensitive only when showing send queue.
+
+Beta 2 release
+--------------
+2003-05-15	George Farris <george@gmsys.com>
+	*Updated Gfax to compile with mono-0.24 and gtk-sharp-0.9
+	*Added functionality to the "Settings" menu.
+	*Added queue_refresh function to refresh the main and queue status on
+		regular intervals
+	*Added "refresh_queue_enabled" and "refresh_queue_interval" GConf items
+
+2003-04-19	George Farris <george@gmsys.com>
+	*Changed gfax directory from $HOME/.gfax to $HOME/.etc/gfax
+		its a fad,lets all do it:-) put your stuff in .etc
+	
+Beta 1 release
+--------------

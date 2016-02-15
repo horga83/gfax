@@ -1,0 +1,18 @@
+	../gfax.desktop.in \
+	../gfax.schemas.in \
+	../glade/gfax.glade \
+	../glade/send-druid.glade \
+	../src/efax.cs \
+	../src/evolution.cs \
+	../src/fax.cs \
+	../src/gfaxphonebook.cs \
+	../src/gfaxprefs.cs \
+	../src/gfaxsend.cs \
+	../src/gui.cs \
+	../src/guitools.cs \
+	../src/hylafax.cs \
+	../src/main.cs \
+	../src/newphonebook.cs \
+	../src/phonebook.cs \
+	../src/sendphonebook.cs \
+	../src/Settings.cs

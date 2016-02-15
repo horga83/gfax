@@ -1,0 +1,60 @@
+The GFAX project aims to provide a free front end to the various 
+facsimile programs available for Linux and other operating systems 
+that use GNOME.
+
+GFAX provides the familiar "pop up" window and phone book support 
+when one "prints" to a "fax" printer. 
+
+This version has the following features: 
+
+      - Works with Hylafax and Efax
+	  - View status of Hylafax server, send, done and receive queues.
+	  - Delete jobs in send queues.
+	  - Modify jobs in send queue.  Number, time to send etc.
+	  - Download, view, print and delete received faxes on the Hylafax server.
+	  - Delayed sending of Hylafax jobs, up to 30 days in the future.
+	  - Both IP and username/password authentication for Hylafax.
+	  - Cancel partially sent jobs, (while sending file to Hylafax server).
+	  - Retrieves and displays total number of jobs in queue.
+	  - Number of jobs in send queue displays in icon in task bar.  
+	  - Auto timed refresh of server and queue status can be toggled on or off.
+	  - Complete list of jobs in queues with status and time to send.
+	  
+	- Phonebooks
+	  - Define Gfax phone books.
+	  - Use your Evolution Adressbooks - See Note 1.
+	  - Add and delete entries to Gfax phone books.
+	  - Send fax to entire phonebook easily.
+	  - Convenient wizard for adding new phonebooks.
+	  - Deselect individual numbers form outgoing list.
+	  
+	- Can fax postscript documents from the command line as well via 
+	  Gnome print, OpenOffice and most other X applications.
+	- Faxing of postscript files straight from Gfax.
+	
+
+NOTES:
+  1)  Evolution addressbooks are read only at the moment and only displays
+      entries that have a number in the "Business Fax" field.
+	  
+	  
+BUILDING FROM THE TAR BALL
+----------------------------------------------------------------
+  configure --prefix=/usr --sysconfdir=/etc
+  make
+  sudo make install  (if you are root you don't need the sudo)
+
+now run the post install script scripts/postinstall.sh
+
+  sudo ./scripts/postinstall.sh
+
+Thats it!
+
+
+Please join the gfax mail list for bugs, support, feature requests, flames
+and other discussion.
+
+Gfax mail list site:  http://www.cowlug.org/mailman/listinfo/gfax
+
+Thanks.
+George Farris - farrisg@gmsys.com

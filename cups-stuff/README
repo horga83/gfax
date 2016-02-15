@@ -1,0 +1,10 @@
+These are required to create a cups printer
+
+Add the printer by adding what is in printers.conf to /etc/cups/printers.conf
+
+Copy cups-gfax to /usr/lib/cups/backend
+Add symlink from 
+/usr/lib/cups/backend/cups-gfax to /usr/lib/cups/backend-available/cups-gfax
+
+Restart cups
+

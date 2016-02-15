@@ -1,0 +1,10 @@
+[Desktop Entry]
+Version=1.0
+_Name=Gfax Facsimile Program
+_Comment=Send and Receive Facsimiles
+Exec=gfax
+Icon=gfax
+StartupNotify=true
+Terminal=false
+Type=Application
+Categories=GNOME;GTK;Office;

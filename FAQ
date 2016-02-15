@@ -1,0 +1,31 @@
+Gfax Frequently asked questions.
+
+  1). I get the following error after I install gfax:
+	Unhandled Exception: GConf.NoSuchKeyException: Key
+	'/apps/gfax/general/run_setup_at_start' not found in GConf
+  2). How do I add Hylafax users and passwords on the fax server?
+  3). How do I send an entire phone book?
+  4). How do I send faxes from OpenOffice programs?
+  5). How do I get cover pages working?
+  
+  1). (Q) I get the following error after I install gfax:
+      	    Unhandled Exception: GConf.NoSuchKeyException: Key
+      (A) Loging out and login back in should fix this.  The GConfd
+          process is not picking up the new keys.  
+  
+  2) (Q) How do I add Hylafax users and passwords on the fax server?
+     (A) Login to your server as "root" and addusers with the following
+         command:  
+		     faxadduser -a <secret password> -p <secret password> username
+         The -a and -p otions are passwords that you choose, -a must be given
+		 for administrative rights to your jobs.  Admin rights allow you to
+		 remove jobs from the server.
+		 
+  3) (Q) How do I send an entire phone book?
+     (A) When sending the facsimile choose the phonebook name and click "OK"
+	     this will select every number in the selected phonebook.  You may
+		 de-select individual entries by un-checking them.
+  
+  4) (Q) How do I get cover pages working?
+     (A) Coverpage support is not yet included.  Most people just add the 
+	     cover page from their word processor.

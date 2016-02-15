@@ -1,0 +1,1598 @@
+# English translations for gfax package.
+# Copyright (C) 2004 THE gfax'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the gfax package.
+# George Farris <george@gmsys.com>, 2004.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: gfax 0.7.6\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2006-11-29 19:29-0800\n"
+"PO-Revision-Date: 2005-02-24 19:21+0100\n"
+"Last-Translator: Sasa Ostrouska <saxa@droplinegnome.org>\n"
+"Language-Team: Italian <saxa@droplinegnome.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=ISO-8859-1\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../gfax.desktop.in.h:1
+#, fuzzy
+msgid "Gfax Facsimile Program"
+msgstr "Gfax Programma Facsimile"
+
+#: ../gfax.desktop.in.h:2
+#, fuzzy
+msgid "Send and Receive Facsimiles"
+msgstr "Invia e Riceve Facsimili"
+
+#: ../gfax.schemas.in.h:1
+msgid "0:never, 1:until carrier, 2:always, 3:on receive only"
+msgstr "0:mai, 1:fino al carrier, 2:sempre, 3:solo ricezzione"
+
+#: ../gfax.schemas.in.h:2
+msgid "0:very low, 1:low, 2:medium, 3:high"
+msgstr "0:molto basso, 1:basso, 2:medio, 3:alto"
+
+#: ../gfax.schemas.in.h:3
+#, fuzzy
+msgid "Modem Device"
+msgstr "Modem tipo"
+
+#: ../gfax.schemas.in.h:4
+#, fuzzy
+msgid "Modem initialization string"
+msgstr "Stringa di inizializazzione del modem"
+
+#: ../gfax.schemas.in.h:5
+msgid "Modem reset string"
+msgstr "Stringa di reset del modem"
+
+#: ../gfax.schemas.in.h:6
+msgid "Not currently used."
+msgstr "Non in uso al momento."
+
+#: ../gfax.schemas.in.h:7
+msgid "The initialization code that is sent to the modem."
+msgstr "Codice di inizializzazione che viene inviato al modem."
+
+#: ../gfax.schemas.in.h:8
+msgid ""
+"The name of the lock file according to your system's conventions. If you're "
+"running Linux you shouldn't have to touch this."
+msgstr ""
+"Il nome del file lock come da suo systema. Se usate Linux non "
+"dovrebbe essere necessario fare modifiche."
+
+#: ../gfax.schemas.in.h:9
+msgid ""
+"The reset code that resets the modem to a power up state. The -Kz code works "
+"with most modems."
+msgstr ""
+"Il codice di reset che resetta il modem a un stato di power up. Il codice -Kz "
+"funziona con la maioria dei modem"
+
+#: ../gfax.schemas.in.h:10
+#, fuzzy
+msgid ""
+"The serial port the modem is connected too. Typical values are ttyS0, cua0 "
+"or modem."
+msgstr ""
+"La porta seriale al quale il modem e collegato. Valori tipici sono ttyS0,\n"
+"cua0 o modem."
+
+#: ../glade/gfax.glade.h:1
+msgid ""
+"\n"
+"Please enter your Hylafax server information here.  If you are running "
+"Hylafax on the same computer That you are using Gfax on then \"Host Name\" "
+"should be set to \"localhost\".\n"
+msgstr ""
+"\n"
+"Per favore inserire le informazioni del Hylafax server qua. Se il server\n"
+"Hylafax e sullo stesso computer dove state usando Gfax dovete immettere\n"
+"\"localhost\" nello spazio \"Nome Host\".  \n"
+
+#: ../glade/gfax.glade.h:4
+msgid "               Program: "
+msgstr "               Programma: "
+
+#: ../glade/gfax.glade.h:5
+msgid "4559"
+msgstr "4559"
+
+#: ../glade/gfax.glade.h:6
+msgid "<b><big>E-Mail Notification</big></b>"
+msgstr "<b><big>Notifica E-Mail</big></b>"
+
+#: ../glade/gfax.glade.h:7
+msgid "<b><big>Efax Setup</big></b>"
+msgstr "<b><big>Settaggi Efax</big></b>"
+
+#: ../glade/gfax.glade.h:8
+#, fuzzy
+msgid "<b><big>Facsimile Viewer Program</big></b>"
+msgstr "<b><big>Programma per la visualizzazione dei Facsimili</big></b>"
+
+#: ../glade/gfax.glade.h:9
+msgid "<b><big>Fax Properties</big></b>"
+msgstr "<b><big>Proprieta Fax</big></b>"
+
+#: ../glade/gfax.glade.h:10
+msgid "<b><big>Fax Transport Agent</big></b>"
+msgstr "<b><big>Agente Trasporto Facsimili</big></b>"
+
+#: ../glade/gfax.glade.h:11
+msgid "<b><big>Hylafax Setup</big></b>"
+msgstr "<b><big>Settaggi Hylafax</big></b>"
+
+#: ../glade/gfax.glade.h:12
+msgid "<b><big>Phone Information</big></b>"
+msgstr "<b><big>Informazioni Telefono</big></b>"
+
+#: ../glade/gfax.glade.h:13
+msgid "<b><big>Transmit Properties</big></b>"
+msgstr "<b><big>Proprieta di Transmissione</big></b>"
+
+#: ../glade/gfax.glade.h:14
+#, fuzzy
+msgid "<b>Alter facsimile job parameters</b>"
+msgstr "<b>Parametri alternativi di facsimile</b>"
+
+#: ../glade/gfax.glade.h:15
+msgid "<b>Server</b>"
+msgstr "<b>Server</b>"
+
+#: ../glade/gfax.glade.h:16
+msgid ""
+"ATT (Dataport, Paradyne)\n"
+"Motorola (Power Modem, 3400 Pro,...\n"
+"QuickComm (Spirit II)\n"
+"USR (Courier, Sportster)\n"
+"Multi-Tech (for bit reversal)\n"
+"User Defined\n"
+msgstr ""
+
+#: ../glade/gfax.glade.h:23
+msgid "Auto Refresh Queue"
+msgstr "Coda di Auto Refresh"
+
+#: ../glade/gfax.glade.h:24
+msgid ""
+"Complete...\n"
+"\n"
+"Your new phone book is ready.\n"
+"If this is a Gfax type phone book you may\n"
+"now add items.  \n"
+"\n"
+"Evolution phone books are read only\n"
+"but may be change through Evolution."
+msgstr ""
+"Completato...\n"
+"\n"
+"La sua nuova agenda contatti telefonici e pronta.\n"
+"Se la sua agenda e del tipo Gfax le puo adesso\n"
+"immettere nuovi contatti.  \n"
+"\n"
+"Contatti telefonici del tipo Evolution non sono modifficabili,\n"
+"pero e possibile modificarli tramite Evolution."
+
+#
+#: ../glade/gfax.glade.h:32
+msgid "Completed Jobs"
+msgstr "Facsimili completati"
+
+#: ../glade/gfax.glade.h:33
+msgid "Database"
+msgstr "Database"
+
+#: ../glade/gfax.glade.h:34 ../glade/send-druid.glade.h:11
+msgid "Delete"
+msgstr "Cancellare"
+
+#: ../glade/gfax.glade.h:35
+msgid "Dial Prefix:"
+msgstr "Prefisso:"
+
+#: ../glade/gfax.glade.h:36
+msgid "E-Mail Address:"
+msgstr "Indirizzo E-Mail:"
+
+#: ../glade/gfax.glade.h:37
+msgid "E-Mail Notification"
+msgstr "Avviso E-Mail"
+
+#: ../glade/gfax.glade.h:38
+msgid "Efax"
+msgstr "Efax"
+
+#: ../glade/gfax.glade.h:39
+msgid "Evolution"
+msgstr "Evolution"
+
+#: ../glade/gfax.glade.h:40
+msgid "Evolution Address books"
+msgstr "Aggenda Evolution"
+
+#: ../glade/gfax.glade.h:41
+msgid "Exit"
+msgstr "Uscita"
+
+#: ../glade/gfax.glade.h:42
+msgid "Facsimile Number:"
+msgstr "Numero Telefax:"
+
+#: ../glade/gfax.glade.h:43
+msgid "Facsimiles to Send"
+msgstr "Telefax da spedire"
+
+#: ../glade/gfax.glade.h:44
+#, fuzzy
+msgid "Fax Number:"
+msgstr "Nummero Fax:"
+
+#: ../glade/gfax.glade.h:45
+msgid "Fax Status:"
+msgstr "Stato Fax:"
+
+#: ../glade/gfax.glade.h:46
+msgid "Fax log enabled"
+msgstr "Log dei fax attivo"
+
+#: ../glade/gfax.glade.h:47
+#, fuzzy
+msgid ""
+"First we must choose a transport agent.  \n"
+"\n"
+"A transport agent is a software package that is responsible for\n"
+"actually sending the facsimile with your modem.  If you don't have \n"
+"one of these installed you should hit cancel here and install\n"
+"a transport agent first.\n"
+"\n"
+"Transport agents can be found at the following URL's but you should \n"
+"check your distribution CD first..\n"
+"\n"
+"Hylafax - http://www.hylafax.org\n"
+"Efax - http://www.cce.com/efax"
+msgstr ""
+"Per prima cosa dovete scegliere il tipo di fax server.\n"
+"\n"
+"Il fax server e un server responsabile per l'invio dei facsimili\n"
+"Se non avete installatto un fax server ancora dovete premmere Cancella\n"
+"e installare prima un fax server.\n"
+"\n"
+"Gli fax server possono essere trovati algi seguenti indirizzi URL,\n"
+"pero e meglio sevoi controllate prima gli CD della vostra distribuzione.\n"
+"\n"
+"Hylafax - http://www.hylafax.org\n"
+"Mgetty - http://alpha.greenie.net/mgetty\n"
+"Efax - http://www.cce.com/efax"
+
+#: ../glade/gfax.glade.h:59
+msgid "Gfax"
+msgstr "Gfax"
+
+#: ../glade/gfax.glade.h:60
+msgid "Gfax  -  E-Mail Address"
+msgstr "Gfax  -  Indirizzo E-Mail"
+
+#: ../glade/gfax.glade.h:61
+msgid "Gfax  -  Facsimile Transport Agent"
+msgstr "Gfax  -  Agente di trasporto facsimili"
+
+#: ../glade/gfax.glade.h:62
+msgid "Gfax  -  Gnome facsimile program"
+msgstr "Gfax  -  Programma Gnome per facsimili"
+
+#: ../glade/gfax.glade.h:63
+msgid "Gfax  -  Modem Selection"
+msgstr "Gfax  -  Selezione Modem"
+
+#: ../glade/gfax.glade.h:64
+msgid "Gfax  -  Phone Number Information"
+msgstr "Gfax  -  Informazioni Numero di Telefono"
+
+#: ../glade/gfax.glade.h:65
+msgid "Gfax  -  Setup Complete"
+msgstr "Gfax  -  Setup Completato"
+
+#: ../glade/gfax.glade.h:66
+msgid "Gfax - Add new phone book."
+msgstr "Gfax - Aggiungi Agenda nr. Telefonici"
+
+#: ../glade/gfax.glade.h:67
+msgid "Gfax - Modify Job"
+msgstr "Gfax - Modifica lavoro"
+
+#: ../glade/gfax.glade.h:68
+msgid "Gfax - New user setup"
+msgstr "Gfax - Setup Nuovo Utente"
+
+#: ../glade/gfax.glade.h:69
+msgid "Gfax - Preferences"
+msgstr "Gfax - Proprieta"
+
+#: ../glade/gfax.glade.h:70
+msgid "Gfax - Transmission Progress"
+msgstr "Gfax - Progresso Trasmissione"
+
+#: ../glade/gfax.glade.h:71
+#, fuzzy
+msgid ""
+"Gfax can inform the Efax transport agent which\n"
+"serial port your modem is connected to."
+msgstr ""
+"Gfax e capace di informare l'Efax server quale e la\n"
+"porta seriale che il vostro modem usa."
+
+#: ../glade/gfax.glade.h:73
+msgid ""
+"Gfax setup is now complete!\n"
+"\n"
+"Gfax is configurable; there are other configuration \n"
+"options available under the preferences menu.\n"
+"\n"
+"You can run this first time setup at any time from\n"
+"the preferences section.\n"
+"\n"
+"Default preferences have been choosen for the\n"
+"transport agent you chose, you may want to\n"
+"customise them."
+msgstr ""
+"Il setup di Gfax e completato!\n"
+"\n"
+"Gfax e configurabile; ci sono altri settaggi sotto il \n"
+"menu Proprieta.\n"
+"\n" 
+"Potete riavviare questo programma di setup in qualunque\n"
+"momento dal menu Proprieta.\n"
+"\n"
+"Le proprieta default sono state scielte per il tipo di\n"
+"server da voi scielto, potete anche personalizarle."
+
+#: ../glade/gfax.glade.h:84
+msgid "Hi Resolution Mode"
+msgstr "Modalita Alta Risoluzione"
+
+#: ../glade/gfax.glade.h:85
+msgid "Host Name:"
+msgstr "Nome Host:"
+
+#: ../glade/gfax.glade.h:86
+msgid "Hostname:"
+msgstr "Nome Host:"
+
+#: ../glade/gfax.glade.h:87
+msgid "Hylafax"
+msgstr "Hylafax"
+
+#: ../glade/gfax.glade.h:88
+msgid "Hylafax - Choose this for network faxing."
+msgstr "Hylafax - Selezionate questo tipo per il network faxing."
+
+#: ../glade/gfax.glade.h:89
+msgid ""
+"Hylafax and Mgetty+Sendfax can both be requested to send \n"
+"results of facsimile transmission to an email address.\n"
+"\n"
+"If you require this feature please enter your email address\n"
+"here.  It's a good idea to include this even if you don't \n"
+"use it immediately, you can enable and disable it in the\n"
+"preferences section of Gfax.\n"
+" "
+msgstr ""
+"Hylafax e Mgetty+Sendfax possono entrambi essere usati per l'invio\n"
+"via e-mail del risultato di sucesso di invio del facsimile.\n"
+"\n"
+"Se volete usufruire di questa funzione immetete il vostro indirizzo\n"
+"e-mail. E una buona idea fare questo anche se non si desidera questa\n"
+"funzione immediatamente. Potete abilitare/disabilitare questa funzione\n"
+"nelle proprieta di Gfax.\n"
+" "
+
+#: ../glade/gfax.glade.h:97
+msgid "IP Port:"
+msgstr "IP Port:"
+
+#: ../glade/gfax.glade.h:98
+msgid "LDAP"
+msgstr "LDAP"
+
+#: ../glade/gfax.glade.h:99
+msgid "Log Enabled"
+msgstr "Log Attivato"
+
+#: ../glade/gfax.glade.h:100
+msgid ""
+"Make no more than <maxdials> calls in attempting to send the facsimile.  "
+"Once <maxdials> has been reached, the job will be killed."
+msgstr ""
+"Non fare piu di <maxdials> chiamate tentando di inviare il facsimile.  "
+"Quando il nr. di <maxdials> chiamate e stato raggiunto, il lavoro verra \n"
+"cancellato."
+
+#: ../glade/gfax.glade.h:101
+msgid "Maximum Dials:"
+msgstr "Nr. Massimo di chiamate"
+
+#: ../glade/gfax.glade.h:102
+msgid "Mgetty"
+msgstr "Mgetty"
+
+#: ../glade/gfax.glade.h:103
+msgid "Modem Connection"
+msgstr "Connessione Modem"
+
+#: ../glade/gfax.glade.h:104
+#, fuzzy
+msgid "Modem Port:"
+msgstr "Porta Modem:"
+
+#: ../glade/gfax.glade.h:105
+#, fuzzy
+msgid "Modem Type:"
+msgstr "Modem Tipo:"
+
+#: ../glade/gfax.glade.h:106
+msgid "New Fax"
+msgstr "Nuovo Fax"
+
+#: ../glade/gfax.glade.h:107 ../glade/send-druid.glade.h:23
+msgid "New phone book"
+msgstr "Nuova Aggenda Telefonica"
+
+#: ../glade/gfax.glade.h:108
+msgid "Open phone book"
+msgstr "Aprire Agenda Telefonica"
+
+#: ../glade/gfax.glade.h:109
+#, fuzzy
+msgid "Page Size:"
+msgstr "Pagina Formato:"
+
+#: ../glade/gfax.glade.h:110
+msgid "Password Dialog"
+msgstr "Dialogo Password"
+
+#: ../glade/gfax.glade.h:111 ../glade/send-druid.glade.h:26
+#: ../src/newphonebook.cs:81
+msgid "Phone Book"
+msgstr "Agenda Telefonica"
+
+#: ../glade/gfax.glade.h:112
+msgid "Please enter a name for your new phone book."
+msgstr "Immettere nome per la vostra nuova agenda telefonica."
+
+#: ../glade/gfax.glade.h:113
+msgid ""
+"Please enter the password \n"
+"for your fax server."
+msgstr ""
+"Immettete la pasword per\n"
+"il vostro fax server."
+
+#: ../glade/gfax.glade.h:115
+msgid ""
+"Please enter the type of phone book you are creating."
+msgstr ""
+"Per favore immettere il tipo della agenda telefonica che state creando."
+
+#: ../glade/gfax.glade.h:121
+msgid ""
+"Please enter your facsimile number.\n"
+"\n"
+"This number is placed in the top one line header that is placed \n"
+"on all outgoing facsimiles.\n"
+"\n"
+"You may also choose a default dial prefix.  Many companies in\n"
+"North America use the number \"9\" to reach an outside line.\n"
+msgstr ""
+"Immettere il numero del vostro facsimile.\n"
+"\n"
+"Questo numero verra immesso sopra ogni telefax inviato nella .\n"
+"prima riga del telefax.\n"
+"\n"
+"Potete anche scegliere il prefisso predefinito.\n"
+"Molte volte si deve digitare \"0\" per avere il segnale.\n"
+"Qua potete immettere il vostro prefisso\n"
+
+#: ../glade/gfax.glade.h:129
+msgid ""
+"Please select the Evolution address books that you would \n"
+"like to use.\n"
+"\n"
+"These are only local address books and will only include\n"
+"contacts with facsimile numbers."
+msgstr ""
+
+#: ../glade/gfax.glade.h:134
+msgid "Port Number:"
+msgstr "Numero Porta:"
+
+#: ../glade/gfax.glade.h:135
+msgid "Received Facsimiles"
+msgstr "Facsimili Ricevuti"
+
+#: ../glade/gfax.glade.h:136
+msgid "Remember this password"
+msgstr "Ricorda questa password"
+
+#: ../glade/gfax.glade.h:137
+msgid "Send Email Notification"
+msgstr "Invia Notifica Email"
+
+#: ../glade/gfax.glade.h:138
+msgid "Send Immediately"
+msgstr "Invia immediatamente"
+
+#: ../glade/gfax.glade.h:139
+msgid "Speaker Volume:"
+msgstr "Volume autoparlante:"
+
+#: ../glade/gfax.glade.h:140
+msgid "System"
+msgstr "Sistema"
+
+#: ../glade/gfax.glade.h:141
+msgid ""
+"The TCP/IP port number of the fax server.  Default hylafax port is 4559."
+msgstr ""
+"La porta TCP/IP del fax server. La porta predefinita di Hylafax e 4559."
+
+#: ../glade/gfax.glade.h:142
+msgid ""
+"The host name of the network fax server.  Enter \"localhost\" if you are not "
+"using a network fax server."
+msgstr ""
+"Il nome del host del server fax. Immettere \"localhost\" se non si e in ,\n"
+"rete o non si usa un fax server di rete."
+
+#: ../glade/gfax.glade.h:143
+msgid "The serial port the modem is on - ttyS0 is COM1, ttyS1 is COM2 etc."
+msgstr ""
+"La porta seriale sulla quale e collegato il modem - ttyS0 = COM1, \n"
+"ttyS1 = COM2 e cosi via."
+
+#: ../glade/gfax.glade.h:144
+msgid ""
+"There was an error transmitting\n"
+"your facsimile to the server!"
+msgstr ""
+"Si e verificato un errore durante\n"
+"la trasmissione del fax al Fax Server!"
+
+#: ../glade/gfax.glade.h:146
+msgid ""
+"This will lead you through the process \n"
+"of creating a new phone book."
+msgstr ""
+"Questo Wizard vi guidera atraverso il \n"
+"processo di creazione di una nuova agenda telefonica."
+
+#: ../glade/gfax.glade.h:148
+#, fuzzy
+msgid "Time to send:"
+msgstr "Ora Invio:"
+
+#: ../glade/gfax.glade.h:149
+msgid ""
+"Transmitting facsimile to \n"
+"Hylafax server."
+msgstr ""
+"Trasmissione Facsimile al \n"
+"Hylafax-Server."
+
+#: ../glade/gfax.glade.h:151
+msgid "Transport Agent"
+msgstr "Fax Server"
+
+#: ../glade/gfax.glade.h:152
+msgid "Use Cover Page"
+msgstr "Uso Copertina"
+
+#: ../glade/gfax.glade.h:153
+msgid "Use Fine Resolution"
+msgstr "Uso Alta Risoluzione"
+
+#: ../glade/gfax.glade.h:154
+msgid "User"
+msgstr "Utente"
+
+#: ../glade/gfax.glade.h:155
+msgid "Username:"
+msgstr "Nome Utente:"
+
+#: ../glade/gfax.glade.h:156
+msgid ""
+"Very Low\n"
+"Low\n"
+"Medium\n"
+"High"
+msgstr ""
+"Molto Basso\n"
+"Basso\n"
+"Medio\n"
+"Alto"
+
+#: ../glade/gfax.glade.h:160
+msgid "View / Print"
+msgstr "Vedi / Stampa"
+
+#: ../glade/gfax.glade.h:161
+msgid ""
+"Welcome to Gfax!\n"
+"\n"
+"\n"
+"Gfax is a GNOME facsimile program that provides \n"
+"the familiar \"popup\" window when printing to a fax \n"
+"printer.\n"
+"\n"
+"The following pages will help you to setup Gfax."
+msgstr ""
+"Benvenuti in Gfax!\n"
+"\n"
+"\n"
+"Gfax e un programma per invio facsimili per GNOME il\n"
+"quale usa le finestre \"popup\" quando si stampa ad una \n"
+"stampante fax." 
+"\n"
+"Le pagine seguenti vi aiuterano a configurare Gfax."
+
+#: ../glade/gfax.glade.h:169
+msgid "Which serial port is your modem connected to?"
+msgstr "Quale e la porta seriale del vostro modem ?"
+
+#: ../glade/gfax.glade.h:170
+msgid ""
+"Your facsimile was sucessfully\n"
+" transmitted!"
+msgstr ""
+"Il vostro facsimile e stato \n"
+"inviato con sucesso !"
+
+#: ../glade/gfax.glade.h:172
+msgid "_Cancel Job"
+msgstr "_Cancellare Lavoro"
+
+#: ../glade/gfax.glade.h:173
+msgid "_Fax"
+msgstr "_Fax"
+
+#: ../glade/gfax.glade.h:174
+msgid "_Help"
+msgstr "_Aiuto"
+
+#: ../glade/gfax.glade.h:175
+msgid "_Modify Job"
+msgstr "_Modifica Lavoro"
+
+#: ../glade/gfax.glade.h:176
+msgid "_Settings"
+msgstr "_Proprieta"
+
+#: ../glade/gfax.glade.h:177
+msgid "cua1"
+msgstr "cua1"
+
+#: ../glade/gfax.glade.h:178
+msgid "cua2"
+msgstr "cua2"
+
+#: ../glade/gfax.glade.h:179
+msgid ""
+"letter\n"
+"legal\n"
+"a4"
+msgstr ""
+
+#: ../glade/gfax.glade.h:182
+msgid "localhost"
+msgstr "localhost"
+
+#: ../glade/gfax.glade.h:183
+msgid "modem"
+msgstr "modem"
+
+#: ../glade/gfax.glade.h:184
+msgid "oklabel"
+msgstr "oklabel"
+
+#: ../glade/gfax.glade.h:185
+msgid "ttyS0"
+msgstr "ttyS0"
+
+#: ../glade/gfax.glade.h:186
+msgid "ttyS1"
+msgstr "ttyS1"
+
+#: ../glade/gfax.glade.h:187
+msgid "ttyS2"
+msgstr "ttyS2"
+
+#: ../glade/gfax.glade.h:188
+msgid "ttyS3"
+msgstr "ttyS3"
+
+#: ../glade/send-druid.glade.h:1
+msgid "<b><big>Current Phone Books</big></b>"
+msgstr "<b><big>Agenda Telefonica Corrente</big></b>"
+
+#: ../glade/send-druid.glade.h:2
+msgid "<b><big>Edit Phone book</big></b>"
+msgstr "<b><big>Edittare Agenda Telefonica</big></b>"
+
+#: ../glade/send-druid.glade.h:3
+msgid "<b>Facsimile Job Details</b>"
+msgstr "<b>Detagli Lavoro Facsimile</b>"
+
+#: ../glade/send-druid.glade.h:4
+msgid "<b>New fax information</b>"
+msgstr "<b>New fax information</b>"
+
+#: ../glade/send-druid.glade.h:5
+msgid "Add"
+msgstr "Addizionare"
+
+#: ../glade/send-druid.glade.h:6
+msgid "Browse"
+msgstr "Cercare"
+
+#: ../glade/send-druid.glade.h:7
+msgid "Clear"
+msgstr "Cancellare"
+
+#: ../glade/send-druid.glade.h:8
+msgid "Close"
+msgstr "Chiudere"
+
+#: ../glade/send-druid.glade.h:9 ../src/gfaxphonebook.cs:89
+#: ../src/gfaxsend.cs:142 ../src/sendphonebook.cs:105
+msgid "Contact"
+msgstr "Contatto"
+
+#: ../glade/send-druid.glade.h:10
+msgid "Current Phone Book"
+msgstr "Agenda Telefonica Corrente"
+
+#: ../glade/send-druid.glade.h:12
+#, fuzzy
+msgid "Delete phone book"
+msgstr "Cancellare Agenda Telefonica"
+
+#: ../glade/send-druid.glade.h:13
+msgid "Details"
+msgstr "Detagli"
+
+#: ../glade/send-druid.glade.h:14
+msgid "E-Mail job results to:"
+msgstr "Inviare e-mail del lavoroa:"
+
+#: ../glade/send-druid.glade.h:15
+msgid "Enter a phone number and hit <enter>."
+msgstr "Immettere nr. fax e premere <invio>."
+
+#: ../glade/send-druid.glade.h:16
+msgid "Fax number:"
+msgstr "Numero Fax:"
+
+#: ../glade/send-druid.glade.h:17
+msgid "Fine resolution"
+msgstr "Risoluzione Fina"
+
+#: ../glade/send-druid.glade.h:18
+msgid "Gfax - Phone Book Selection"
+msgstr "Gfax - Selezione Agenda Telefonica"
+
+#: ../glade/send-druid.glade.h:19
+msgid "Gfax - Phone books"
+msgstr "Gfax - Agende Telefoniche"
+
+#: ../glade/send-druid.glade.h:20
+msgid "Job"
+msgstr "Lavoro"
+
+#: ../glade/send-druid.glade.h:21
+msgid "New Entry"
+msgstr "Nuova Entrata"
+
+#: ../glade/send-druid.glade.h:22
+msgid "New Item"
+msgstr "Nuovo Item"
+
+#: ../glade/send-druid.glade.h:24 ../src/gui.cs:238 ../src/gui.cs:249
+msgid "Number"
+msgstr "Numero"
+
+#: ../glade/send-druid.glade.h:25 ../src/gfaxphonebook.cs:87
+#: ../src/gfaxsend.cs:141 ../src/sendphonebook.cs:103
+msgid "Organization"
+msgstr "Organizazzione"
+
+#: ../glade/send-druid.glade.h:27
+msgid "Phone Book Item List"
+msgstr "Lista Item Agenda Telefonica"
+
+#: ../glade/send-druid.glade.h:28
+msgid "Phone Books"
+msgstr "Agende Telefoniche"
+
+#: ../glade/send-druid.glade.h:29
+msgid "Postscript file:"
+msgstr "Archivio Postscript:"
+
+#: ../glade/send-druid.glade.h:30
+msgid "Save and Close"
+msgstr "Salva e Chiudi"
+
+#: ../glade/send-druid.glade.h:31
+#, fuzzy
+msgid "Save and close"
+msgstr "Salva e Chiudi"
+
+#: ../glade/send-druid.glade.h:32 ../src/gfaxsend.cs:139
+msgid "Send"
+msgstr "Invia"
+
+#: ../glade/send-druid.glade.h:33
+msgid "Send Fax"
+msgstr "Fax Invio"
+
+#: ../glade/send-druid.glade.h:34
+msgid "Send immediately"
+msgstr "Invia Immediatamente"
+
+#: ../glade/send-druid.glade.h:35
+msgid "Transmit the fax"
+msgstr "Trasmetti il Fax"
+
+#: ../glade/send-druid.glade.h:36
+msgid "Update"
+msgstr "Aggiorna"
+
+#: ../glade/send-druid.glade.h:37
+msgid "_File"
+msgstr "_Archivio"
+
+#: ../src/efax.cs:384
+msgid "Scanning control files."
+msgstr ""
+
+#: ../src/efax.cs:397
+msgid "Running job "
+msgstr "Lavoro Corrente"
+
+#: ../src/efax.cs:421 ../src/efax.cs:508
+msgid "Busy retries exceeded"
+msgstr ""
+
+#: ../src/efax.cs:468
+#, fuzzy
+msgid "Sending facsimile..."
+msgstr "Invio Facsimile..."
+
+#. If successful then mv the control file to the done queue and flag
+#. a date for it's removal.
+#: ../src/efax.cs:492
+msgid "Success"
+msgstr "Sucesso"
+
+#. fatal errors - no retry
+#. fatalError = true;
+#. change code in file
+#: ../src/efax.cs:516
+msgid "Fatal error"
+msgstr "Errore Fatale"
+
+#. Modem error - no retry
+#. fatalError = true;
+#: ../src/efax.cs:522
+msgid "Fatal modem error"
+msgstr "Errore Fatale del Modem"
+
+#. Modem not responding
+#. fatalError = true;
+#: ../src/efax.cs:528
+msgid "Modem not responding"
+msgstr "Il Modem non risponde"
+
+#. Program terminated
+#. fatalError = true;
+#: ../src/efax.cs:534
+msgid "Program terminated"
+msgstr "Programma treminato"
+
+#: ../src/fax.cs:60
+msgid "No Connection"
+msgstr "Connessione Assente"
+
+#: ../src/fax.cs:71
+msgid ""
+"Efax transmit process running...\n"
+"Scanning job files every 30 seconds."
+msgstr ""
+
+#: ../src/fax.cs:77
+msgid "Error transport agent not specified!"
+msgstr "Errore: Fax Server non specificato!"
+
+#: ../src/fax.cs:132
+msgid "Run"
+msgstr "Corri"
+
+#: ../src/fax.cs:135
+msgid "Sleep"
+msgstr "Dormi"
+
+#: ../src/fax.cs:138
+msgid "Block"
+msgstr "Blocca"
+
+#: ../src/fax.cs:141
+msgid "Busy"
+msgstr "Ocupato"
+
+#: ../src/fax.cs:144 ../src/fax.cs:244
+#, fuzzy
+msgid "Done"
+msgstr "Fatto"
+
+#: ../src/fax.cs:147
+#, fuzzy
+msgid "Fail"
+msgstr "_Falito"
+
+#: ../src/fax.cs:150
+#, fuzzy
+msgid "New"
+msgstr "Nuovo Fax"
+
+#: ../src/fax.cs:241
+msgid "Receiving"
+msgstr "Ricezione"
+
+#: ../src/gfaxphonebook.cs:88 ../src/gfaxsend.cs:140
+#: ../src/sendphonebook.cs:104
+#, fuzzy
+msgid "Phone Number"
+msgstr "Numero Telefono"
+
+#: ../src/gfaxphonebook.cs:213
+msgid "Are you sure you want to delete the phone book?"
+msgstr "siete sicuri di cancellare la agenda telefonica ?"
+
+#: ../src/gfaxphonebook.cs:297
+msgid ""
+"You have unsaved phone book entries.\n"
+" Are you sure you want to Quit?"
+msgstr ""
+"Es gibt ungespeicherte Telefonbucheinträge.  \n"
+"Sind Sie sicher, dass Sie beenden wollen?  "
+
+#: ../src/gfaxphonebook.cs:460
+msgid "Press the <DELETE> key to delete an entry."
+msgstr "Drücken Sie die Entfernen-Taste um einen Eintrag zu löschen."
+
+#: ../src/gfaxprefs.cs:190 ../src/gfaxprefs.cs:208
+msgid "You need to exit Gfax and restart it when you change transport agents"
+msgstr ""
+
+#: ../src/gfaxsend.cs:88
+msgid ""
+"\n"
+"This is the first time you have run Gfax.\n"
+"Please run Gfax from the menu or command line and set your \n"
+"MODEM TYPE, PORT and Fax number under preferences.\n"
+"\n"
+"Gfax is initially setup to use Efax, you may change it use \n"
+"Hylafax if you prefer or require connection to a network \n"
+"facsimile server."
+msgstr ""
+
+#: ../src/gfaxsend.cs:164
+msgid "Spooled from print job"
+msgstr ""
+
+#: ../src/gfaxsend.cs:276
+msgid ""
+"\n"
+"The file you have entered does not exist.\n"
+"Please check the name and try again."
+msgstr ""
+
+#: ../src/gfaxsend.cs:310
+msgid ""
+"\n"
+"You have not entered a facsimile number!\n"
+"Please enter a number and press the <i><b>Enter</b></i> key or\n"
+"click the <i><b>Phone Book</b></i> button to select numbers or\n"
+"entire phone books."
+msgstr ""
+
+#: ../src/gui.cs:143
+msgid ""
+"\n"
+"This is the first time you have run Gfax.\n"
+"You should set your MODEM TYPE and PORT under preferences.\n"
+"\n"
+"Gfax is initially setup to use Efax, you may change it use \n"
+"Hylafax if you prefer or require connection to a network \n"
+"facsimile server."
+msgstr ""
+
+#: ../src/gui.cs:157
+msgid ""
+"Your spool directory is missing!\n"
+"\t\t\t\t\t\n"
+"Please login as the root user and create the "
+msgstr ""
+
+#: ../src/gui.cs:161
+msgid ""
+" directory.\n"
+"\n"
+"All users should be able to write to it.\n"
+msgstr ""
+
+#: ../src/gui.cs:166
+msgid ""
+"The doneq directory is missing in your spool directory!\n"
+"\t\t\t\t\t\n"
+"Please login as the root user and create the "
+msgstr ""
+
+#: ../src/gui.cs:169
+msgid ""
+"/doneq directory.\n"
+"\n"
+"All users should be able to write to it.\n"
+msgstr ""
+
+#: ../src/gui.cs:175
+msgid ""
+"The recq directory is missing in your spool directory!\n"
+"\t\t\t\t\t\n"
+"Please login as the root user and create the "
+msgstr ""
+
+#: ../src/gui.cs:178
+msgid ""
+"/recq directory.\n"
+"\n"
+"All users should be able to write to it.\n"
+msgstr ""
+
+#: ../src/gui.cs:237 ../src/gui.cs:248
+#, fuzzy
+msgid "Jobid"
+msgstr "Auftrag"
+
+#: ../src/gui.cs:239 ../src/gui.cs:250 ../src/gui.cs:259
+#, fuzzy
+msgid "Status"
+msgstr "Faxstatus:"
+
+#: ../src/gui.cs:240 ../src/gui.cs:251
+msgid "Owner"
+msgstr ""
+
+#: ../src/gui.cs:241 ../src/gui.cs:252
+msgid "Pages"
+msgstr ""
+
+#: ../src/gui.cs:242 ../src/gui.cs:253
+#, fuzzy
+msgid "Dials"
+msgstr "Details"
+
+#: ../src/gui.cs:243 ../src/gui.cs:254
+#, fuzzy
+msgid "Send At"
+msgstr "Senden"
+
+#: ../src/gui.cs:244 ../src/gui.cs:255
+msgid "Error"
+msgstr ""
+
+#: ../src/gui.cs:258
+#, fuzzy
+msgid "Sender"
+msgstr "Senden"
+
+#: ../src/gui.cs:260
+#, fuzzy
+msgid "Pages  "
+msgstr "Seitenformat"
+
+#: ../src/gui.cs:261
+msgid "Arrived"
+msgstr ""
+
+#: ../src/gui.cs:262
+#, fuzzy
+msgid "Filename"
+msgstr "_Datei"
+
+#: ../src/gui.cs:666
+msgid ""
+"Cannot read the facsimile file from the server. You most likely do not \n"
+"have permission to read the file.  Check the settings on your fax server."
+msgstr ""
+
+#: ../src/gui.cs:673
+msgid ""
+"Cannot start your faxviewer program. \n"
+"Please check your settings.  It is currently set to "
+msgstr ""
+
+#: ../src/gui.cs:674
+msgid "."
+msgstr ""
+
+#: ../src/gui.cs:709
+msgid ""
+"Cannot delete the facsimile file from the server. You most likely do not \n"
+"have permission to delete the file.  Check the settings on your fax server."
+msgstr ""
+
+#: ../src/gui.cs:715
+msgid ""
+"Cannot delete the file on the Hylafax server. \n"
+"Please check your settings or contact your system Administrator"
+msgstr ""
+
+#: ../src/gui.cs:785
+msgid "Copyright (C) 2003 George Farris <farrisg@gmsys.com>"
+msgstr ""
+
+#: ../src/gui.cs:786
+msgid "A Facsimile application for GNOME"
+msgstr ""
+
+#: ../src/gui.cs:831
+#, fuzzy
+msgid "Refreshing server status..."
+msgstr "Auto Refresh Queue"
+
+#: ../src/gui.cs:868
+#, fuzzy
+msgid "Refreshing queue..."
+msgstr "Auto Refresh Queue"
+
+#: ../src/gui.cs:934 ../src/gui.cs:953
+msgid "There are "
+msgstr ""
+
+#: ../src/gui.cs:934 ../src/gui.cs:953
+msgid " jobs in the queue"
+msgstr ""
+
+#: ../src/gui.cs:941 ../src/gui.cs:960
+msgid "There are 0 jobs in the queue"
+msgstr ""
+
+#: ../src/hylafax.cs:146
+msgid "You can not write data to this stream"
+msgstr "Sie können in diesen Strom keine Daten schreiben."
+
+#: ../src/hylafax.cs:150
+msgid "You can not read data from this stream"
+msgstr "Sie können aus diesem Strom keine Daten lesen."
+
+#: ../src/hylafax.cs:158
+msgid ""
+"Could not connect to your Hylafax server.\n"
+"Check console messages for further information\n"
+"\n"
+"You might need to set a value for username."
+msgstr ""
+"Konnte nicht mit dem Hylafax-Server verbinden.\n"
+"Überprüfen Sie die Konsolenausgabe für weitere Einzelheiten\n"
+"\n"
+"Möglicherweise müssen Sie einen Benutzernamen angeben."
+
+#: ../src/main.cs:109
+msgid "Gfax help..."
+msgstr "Hilfe zu Gfax"
+
+#: ../src/main.cs:135
+msgid ""
+"Gconfd cannot find your settings. \n"
+"If you are running Gfax immediately \n"
+"after an installation, you may have \n"
+"to log out and log back in again."
+msgstr ""
+
+#: ../src/newphonebook.cs:80
+#, fuzzy
+msgid "Use"
+msgstr "Benutzer"
+
+#: ../src/phonebook.cs:295
+#, csharp-format
+msgid "Can't open file : {0}"
+msgstr "Kann Datei {0} nicht öffnen\""
+
+#: ../src/sendphonebook.cs:66
+msgid "You don't have any phone books yet."
+msgstr "Sie haben noch keine Telefonbücher angelegt."
+
+#. Got have a column title or things won't show up
+#: ../src/sendphonebook.cs:94
+#, fuzzy
+msgid "Phone books"
+msgstr "Telefonbücher"
+
+#~ msgid "0"
+#~ msgstr "0"
+
+#~ msgid "1"
+#~ msgstr "1"
+
+#~ msgid "10 Minutes"
+#~ msgstr "10 Minuten"
+
+#~ msgid "1000"
+#~ msgstr "1000"
+
+#~ msgid "115200"
+#~ msgstr "115200"
+
+#~ msgid "15 Minutes"
+#~ msgstr "15 Minuten"
+
+#~ msgid "1500"
+#~ msgstr "1500"
+
+#~ msgid "19200"
+#~ msgstr "19200"
+
+#~ msgid "2"
+#~ msgstr "2"
+
+#~ msgid "2000"
+#~ msgstr "2000"
+
+#~ msgid "2400"
+#~ msgstr "2400"
+
+#~ msgid "3"
+#~ msgstr "3"
+
+#~ msgid "30 Minutes"
+#~ msgstr "30 Minutes"
+
+#~ msgid "38400"
+#~ msgstr "38400"
+
+#~ msgid "4"
+#~ msgstr "4"
+
+#~ msgid "4800"
+#~ msgstr "4800"
+
+#~ msgid "5"
+#~ msgstr "5"
+
+#~ msgid "5 Minutes"
+#~ msgstr "5 Minuten"
+
+#~ msgid "500"
+#~ msgstr "500"
+
+#~ msgid "57600"
+#~ msgstr "57600"
+
+#~ msgid "6"
+#~ msgstr "6"
+
+#~ msgid "7"
+#~ msgstr "7"
+
+#~ msgid "8"
+#~ msgstr "8"
+
+#~ msgid "9"
+#~ msgstr "9"
+
+#~ msgid "9600"
+#~ msgstr "9600"
+
+#~ msgid ""
+#~ "A few modems respond to raising the DTR line (when opening the device) "
+#~ "with `OK'.  This can confuse `sendfax', because it will see this OK as "
+#~ "response to the next command.  Default is 0."
+#~ msgstr ""
+#~ "A few modems respond to raising the DTR line (when opening the device) "
+#~ "with `OK'.  This can confuse `sendfax', because it will see this OK as "
+#~ "response to the next command.  Default is 0."
+
+#, fuzzy
+#~ msgid "ATT (Dataport, Paradyne)"
+#~ msgstr "FCINIT='-j\\Q4'\t\t#AT&T (Dataport, Paradyne)"
+
+#~ msgid ""
+#~ "After the maximum number of tries for one page are reached, `sendfax' can "
+#~ "report an error and abort or continue.  Default is Yes."
+#~ msgstr ""
+#~ "After the maximum number of tries for one page are reached, `sendfax' can "
+#~ "report an error and abort or continue.  Default is Yes."
+
+#~ msgid ""
+#~ "An 'AT...' command that will be sent to the modem at the end of the modem "
+#~ "initialization, right before dialing."
+#~ msgstr ""
+#~ "An 'AT...' command that will be sent to the modem at the end of the modem "
+#~ "initialization, right before dialing."
+
+#~ msgid "Baud Rate Switch"
+#~ msgstr "Baud Rate Switch"
+
+#~ msgid ""
+#~ "Controls the amount of information written into the fax log file.  "
+#~ "Default is 3."
+#~ msgstr ""
+#~ "Controls the amount of information written into the fax log file.  "
+#~ "Default is 3."
+
+#~ msgid "Debug Level"
+#~ msgstr "Debug Level"
+
+#~ msgid "Dial Command"
+#~ msgstr "Wählbefehl"
+
+#~ msgid "Disabled"
+#~ msgstr "Deaktiviert"
+
+#~ msgid "Fax Users Allowed"
+#~ msgstr "Zugelassene Faxbenutzer"
+
+#~ msgid "Fax Users Denied"
+#~ msgstr "Nicht zugelassene Faxbenutzer"
+
+#~ msgid "Hour"
+#~ msgstr "Stunde"
+
+#~ msgid ""
+#~ "How often you want the fax queue scanned.  Faxes won't be transmitted "
+#~ "until \"faxrunq\" is run to scan the queue.  This value is set in /etc/"
+#~ "crontab."
+#~ msgstr ""
+#~ "Wie oft soll die Fax-Warteschlange überprüft werden? Faxe werden erst\n"
+#~ "übertragen, wenn \"faxrunq\" die Warteschlange überprüft. Der Wert wird\n"
+#~ "in /etc/crontab festgelegt."
+
+#~ msgid "Ignore Carrier"
+#~ msgstr "Freizeichen ignorieren"
+
+#~ msgid "Maximum Tries per Page"
+#~ msgstr "Maximale Anzahl Versuche pro Seite"
+
+#~ msgid "Mgetty+Sendfax"
+#~ msgstr "Mgetty+Sendfax"
+
+#~ msgid "Mgetty+Sendfax Setup"
+#~ msgstr "Einrichtung von Mgetty+Sendfax"
+
+#~ msgid "Minute"
+#~ msgstr "Minute"
+
+#~ msgid "Modem Handshake"
+#~ msgstr "Modem Handshake"
+
+#~ msgid "Modem Initialization String"
+#~ msgstr "Initialisierungssequenz des Modems"
+
+#~ msgid "Modem Port"
+#~ msgstr "Modem-Anschluss"
+
+#~ msgid "Modem Quirks"
+#~ msgstr "Besonderheiten des Modems"
+
+#~ msgid "Modem Speed  (bps)"
+#~ msgstr "Geschwindigkeit des Modems (bps)"
+
+#~ msgid "Modem Type"
+#~ msgstr "Modemtyp"
+
+#, fuzzy
+#~ msgid "Motorola (Power Modem, 3400 Pro,..."
+#~ msgstr "FCINIT='-j\\Q1'\t\t#Motorola (Power Modem, 3400 Pro,.)"
+
+#, fuzzy
+#~ msgid "Multi-Tech (for bit reversal)"
+#~ msgstr "FCINIT='-or'\t\t  # Multi-Tech (for bit reversal)"
+
+#~ msgid "No"
+#~ msgstr "Nein"
+
+#~ msgid "None"
+#~ msgstr "Keiner"
+
+#~ msgid ""
+#~ "On some (very few) modems it is necessary to start with baudrate \"A\" "
+#~ "and switch to baudrate \"B\" after sending the `AT+FCLASS=2' command.  "
+#~ "Default is None."
+#~ msgstr ""
+#~ "Bei manchen (sehr wenigen) Modems ist es notwendig, mit der Baudrate\n"
+#~ "\"A\" zu beginnen und später, nachdem der Befehl 'AT+FCLASS=2' gesendet\n"
+#~ "wurde, zu Baudrate \"B\" umzuschalten. Vorgabe ist Keine."
+
+#~ msgid "Open Delay (msec)"
+#~ msgstr "Verzögerung beim Öffnen (Millisekunden)"
+
+#, fuzzy
+#~ msgid "QuickComm (Spirit II)"
+#~ msgstr "FCINIT='-j*F1'\t\t # QuickComm (Spirit II)"
+
+#~ msgid "Run Fax Queue Every"
+#~ msgstr "Warteschlange abarbeiten jede"
+
+#~ msgid "SendFax Config File"
+#~ msgstr "Sendfax-Konfigurationsdatei"
+
+#~ msgid "Sendfax Config File"
+#~ msgstr "Sendfax-Konfigurationsdatei"
+
+#~ msgid "Setup Druid"
+#~ msgstr "Einrichtungsassistent"
+
+#~ msgid ""
+#~ "The location of the mgetty \"sendfax.config\" file.  Default is \"/etc/"
+#~ "mgetty+sendfax/sendfax.config\".  You shouldn't have to change this."
+#~ msgstr ""
+#~ "Speicherort der Datei \"sendfax.config\" von mgetty. Die Vorgabe ist\n"
+#~ "\"/etc/mgetty+sendfax/sendfax.config\" Normalerweise müssen Sie dies\n"
+#~ "nicht ändern.\""
+
+#~ msgid ""
+#~ "The maximum number of tries per page if the receiving end reports "
+#~ "reception errors.  Default is 3."
+#~ msgstr ""
+#~ "Maximale Anzahl von Versuchen pro Seite, wenn die empfangende Seite\n"
+#~ "Empfangsfehler meldet. Vorgabe ist 3."
+
+#~ msgid ""
+#~ "The speed to set your serial port at.  Try the highest and go down from "
+#~ "there."
+#~ msgstr ""
+#~ "Die Geschwindigkeit Ihres seriellen Anschlusses. Versuchen Sie\n"
+#~ "zunächst den höchstmöglichen Wert und verringern Sie, falls nötig."
+
+#~ msgid ""
+#~ "This can be used to adapt `sendfax' to some peculiarities in certain "
+#~ "modems. Not normally required."
+#~ msgstr ""
+#~ "Dies kann eingesetzt werden, umd `sendfax' an die Eigenarten gewisser "
+#~ "Modems anzupassen. Normalerweise nicht benötigt."
+
+#~ msgid ""
+#~ "This is the command used for dialing out. Usually this will be something "
+#~ "simple, as `ATDT' for tone or `ATDP' for pulse dialing."
+#~ msgstr ""
+#~ "Dies ist der Befehl zum Herauswählen. Normalerweise ist dies etwas\n"
+#~ "einfaches, wie `ATDT' für Ton- oder `ATDP' für Impulswahl."
+
+#~ msgid ""
+#~ "This will initialize the modem when the port is opened.  See your modem "
+#~ "manual.  Default is ATZ."
+#~ msgstr ""
+#~ "Hiermit wird Ihr Modem initialisiert, wenn der Anschluss geöffnet\n"
+#~ "wird. Schauen Sie in das Handbuch zu Ihrem Modem. Die Vorgabe ist ATZ."
+
+#~ msgid "Type of fax modem.  See your modem manual.  Default is auto."
+#~ msgstr ""
+#~ "Typ des Faxmodems. Konsultieren Sie Ihr Modemhandbuch. Vorgabe ist auto."
+
+#, fuzzy
+#~ msgid "USR (Courier, Sportster)"
+#~ msgstr "FCINIT='-j&H2'\t\t# USR (Courier, Sportster)"
+
+#, fuzzy
+#~ msgid "User Defined"
+#~ msgstr "Nicht zugelassene Faxbenutzer"
+
+#~ msgid ""
+#~ "Users allowed to use the fax system.  Can be empty only if the deny list "
+#~ "is populated.  These must be user names."
+#~ msgstr ""
+#~ "Benutzer, die berechtigt sind, das Faxsystem zu benutzen. Kann nur\n"
+#~ "dann leer sein, wenn die Liste der nicht zugelassen Benutzer Einträge\n"
+#~ "enthält. Diese müssen Benutzernamen verwenden."
+
+#~ msgid ""
+#~ "Users denied from using the fax system. Can be empty only if the allow "
+#~ "list is populated."
+#~ msgstr ""
+#~ "Benutzer, die nicht berechtigt sind, das Faxsystem zu benutzen. Kann\n"
+#~ "nur dann leer gelassen werfden, wenn die Liste der zugelassenen\n"
+#~ "Benutzer Einträge enthält."
+
+#~ msgid "Yes"
+#~ msgstr "Ja"
+
+#~ msgid "a4"
+#~ msgstr "a4"
+
+#~ msgid "auto"
+#~ msgstr "auto"
+
+#~ msgid "c2.0"
+#~ msgstr "c2.0"
+
+#~ msgid "cls2"
+#~ msgstr "cls2"
+
+#~ msgid "legal"
+#~ msgstr "legal"
+
+#~ msgid "letter"
+#~ msgstr "letter"
+
+#~ msgid "'-x /usr/spool/uucp/LCK..$DEV'"
+#~ msgstr "'-x /usr/spool/uucp/LCK..$DEV'"
+
+#~ msgid "'-x /var/lock/LCK..$DEV'"
+#~ msgstr "'-x /var/lock/LCK..$DEV'"
+
+#~ msgid "*"
+#~ msgstr "*"
+
+#~ msgid "-x /var/spool/uucp/LCK..$DEV'"
+#~ msgstr "-x /var/spool/uucp/LCK..$DEV'"
+
+#~ msgid "/etc/efax.rc"
+#~ msgstr "/etc/efax.rc"
+
+#~ msgid ""
+#~ "Complete...\n"
+#~ "\n"
+#~ "Your new phone book is ready for you to add items."
+#~ msgstr ""
+#~ "Complete...\n"
+#~ "\n"
+#~ "Your new phone book is ready for you to add items."
+
+#~ msgid "Efax config file"
+#~ msgstr "Efax config file"
+
+#~ msgid "Enter a phone number and hit <enter> or press the \"Add\" button"
+#~ msgstr ""
+#~ "Geben Sie eine Telefonnummer ein und drücken Sie <Eingabe> oder klicken "
+#~ "Sie auf den Knopf \"Hinzufügen\"."
+
+#~ msgid "FCINIT=''"
+#~ msgstr "FCINIT=''"
+
+#~ msgid "Force xon/xoff"
+#~ msgstr "Force xon/xoff"
+
+#~ msgid "Gfax - Select postcript file"
+#~ msgstr "Gfax - Postcript-Datei auswählen"
+
+#~ msgid "Lock File"
+#~ msgstr "Sperrdatei"
+
+#~ msgid "Preferences"
+#~ msgstr "Vorlieben"
+
+#~ msgid "Send later"
+#~ msgstr "Später senden"
+
+#~ msgid ""
+#~ "Status Column Definition:   D = Complete, R = Running, F = Failed, S = "
+#~ "Sleeping, W = Waiting for modem, B = Blocked by job, P = Pending"
+#~ msgstr ""
+#~ "Erklärung der Statusspalten: D = Abgeschlosse, R = Laufend, F =\n"
+#~ "Fehlgeschlagen, S = Schlafend, W = Warte auf Modem, B= Blockiert durch\n"
+#~ "Auftrag, P = Wartend"
+
+#~ msgid "Use cover page"
+#~ msgstr "Deckblatt benutzen"
+
+#~ msgid "New Phonebook"
+#~ msgstr "Neues Telefonbuch"
+
+#~ msgid "label379"
+#~ msgstr "label379"
+
+#~ msgid "label383"
+#~ msgstr "label383"

@@ -1,0 +1,43 @@
+- allow customizing phonebook location (central server)
+- add Nautilus script to fax file. (0.7.8)
+
+- evolution phonebook as a plugin to avoid dependencies (0.7.8)
+- add cancel button when receiving a fax to view (0.7.8)
+- receive support for efax (0.x.x)
+
+- allow re-queue job from done queue (0.7.8)
+
+- convert many types of files for faxing so we can send more than just *.ps
+- preview outgoing file before sending.
+
+- add gnome-keyring support.
+
+- cover page stuff.
+- add emailing
+- add log of numbers called.
+- modify multiple jobs. (0.7.8)
+
+- Documentation
+
+- Add better error checking to all Hylafax operations
+
+- add searching phone number on send fax page. (auto search)
+- add help.
+- show "my" sent faxes or all faxes or sort at least
+- query entire job information, destination company etc.
+
+- clean up my variable naming :-)
+
+D-Bus support
+
+D-Bus support needs to be added for Efax.  Basically the efax thread will
+communicate via dbus.  It should initially be able to do the following:
+
+From gfax to efax
+	start queue loop
+	cancel job
+	
+From efax to gfax
+	job id currently working on
+	job status
+	received fax  - later, receive support isn't in yet.

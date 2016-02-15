@@ -1,0 +1,8 @@
+
+
+apt-get install dpatch dh-make cli-common.dev
+
+Build Ubuntu package with 
+ dpkg-buildpackage -rfakeroot
+
+
